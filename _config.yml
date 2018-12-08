@@ -53,13 +53,13 @@ sidebar_home_link:  true
                                 # set this to the root of the paginate_path
                                 # to enable a separate blog link.
 github:
-  repo:             https://github.com/saqibns
+  repo:             https://github.com/singhcse/
 
 twitter:
   handle:             https://twitter.com/saqibns
 
 linkedin:
-  profile:             https://www.linkedin.com/in/snshamsi/
+  profile:             https://www.linkedin.com/in/singhshubham01/
 
 email:
   address:             mailto:singhcse01@gmail.com
