@@ -25,8 +25,8 @@ kramdown:
 title:            Saqib's Blog
 tagline:          'Home'
 description:      'Trying to get better at things, little by little'
-url:              https://saqibns.github.io/
-baseurl:          # the optional subpath of your site, e.g. "/blog"
+url:               https://singhcse.github.io/
+baseurl:          '/myblog'
                   # NB: This applies to all pages in your Jekyll site.
                   # If you want to move just the blog index pages but keep
                   # other pages at root, see the paginate_path and
