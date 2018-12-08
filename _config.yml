@@ -22,9 +22,9 @@ kramdown:
       start_line: 1
 
 # Setup
-title:            Saqib's Blog
+title:            Shubham's Blog
 tagline:          'Home'
-description:      'Trying to get better at things, little by little'
+description:      'In love with programming'
 url:               https://singhcse.github.io/
 baseurl:          '/myblog'
                   # NB: This applies to all pages in your Jekyll site.
@@ -33,7 +33,7 @@ baseurl:          '/myblog'
                   # sidebar_blog_link below.
 
 author:
-  name:           'Saqib Nizam Shamsi'
+  name:           'Shubham Singh'
   url:            https://twitter.com/saqibns
 
 paginate:         5
@@ -62,7 +62,7 @@ linkedin:
   profile:             https://www.linkedin.com/in/snshamsi/
 
 email:
-  address:             mailto:shamsi.saqib@gmail.com
+  address:             mailto:singhcse01@gmail.com
 
 disqus:
   shortname:             saqibns-github-io
