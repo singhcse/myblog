@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+
+  <title>
+    
+      Predicting Emotions of a Group &middot; Saqib's Blog
+    
+  </title>
+
+  
+
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/assets/css/main.css" />
+  
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface" />
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/site/favicon.png" />
+<link rel="shortcut icon" href="/assets/site/favicon.ico" />
+
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml" />
+
+  <!-- Additional head bits without overriding original head -->
+</head>
+
+
+  <body class="post">
+
+    <div id="sidebar">
+  <header>
+    <div class="site-title">
+      <a href="/">
+        
+          <span class="back-arrow icon"><svg fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+  <path d="M0 0h24v24H0z" fill="none"/>
+  <path d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"/>
+</svg></span>
+        
+        Saqib's Blog
+      </a>
+    </div>
+    <p class="lead">Trying to get better at things, little by little</p>
+  </header>
+  
+  <nav id="sidebar-nav-links">
+  
+    <a class="home-link "
+        href="/">Home</a>
+  
+  
+
+  
+
+  
+
+
+  
+    
+  
+
+  
+    
+      <a class="page-link "
+          href="/about.html">About</a>
+    
+  
+
+  
+    
+  
+
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+
+
+  
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+
+
+  <!-- Optional additional links to insert in sidebar nav -->
+<a class="page-link" href="/resume.pdf">Resume</a>
+
+</nav>
+
+
+  
+
+  <nav id="sidebar-icon-links">
+  
+    <a id="github-link"
+       class="icon" title="GitHub" aria-label="GitHub"
+       href="https://github.com/saqibns">
+      <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 28"><path d="M12 2c6.625 0 12 5.375 12 12 0 5.297-3.437 9.797-8.203 11.391-0.609 0.109-0.828-0.266-0.828-0.578 0-0.391 0.016-1.687 0.016-3.297 0-1.125-0.375-1.844-0.812-2.219 2.672-0.297 5.484-1.313 5.484-5.922 0-1.313-0.469-2.375-1.234-3.219 0.125-0.313 0.531-1.531-0.125-3.187-1-0.313-3.297 1.234-3.297 1.234-0.953-0.266-1.984-0.406-3-0.406s-2.047 0.141-3 0.406c0 0-2.297-1.547-3.297-1.234-0.656 1.656-0.25 2.875-0.125 3.187-0.766 0.844-1.234 1.906-1.234 3.219 0 4.594 2.797 5.625 5.469 5.922-0.344 0.313-0.656 0.844-0.766 1.609-0.688 0.313-2.438 0.844-3.484-1-0.656-1.141-1.844-1.234-1.844-1.234-1.172-0.016-0.078 0.734-0.078 0.734 0.781 0.359 1.328 1.75 1.328 1.75 0.703 2.141 4.047 1.422 4.047 1.422 0 1 0.016 1.937 0.016 2.234 0 0.313-0.219 0.688-0.828 0.578-4.766-1.594-8.203-6.094-8.203-11.391 0-6.625 5.375-12 12-12zM4.547 19.234c0.031-0.063-0.016-0.141-0.109-0.187-0.094-0.031-0.172-0.016-0.203 0.031-0.031 0.063 0.016 0.141 0.109 0.187 0.078 0.047 0.172 0.031 0.203-0.031zM5.031 19.766c0.063-0.047 0.047-0.156-0.031-0.25-0.078-0.078-0.187-0.109-0.25-0.047-0.063 0.047-0.047 0.156 0.031 0.25 0.078 0.078 0.187 0.109 0.25 0.047zM5.5 20.469c0.078-0.063 0.078-0.187 0-0.297-0.063-0.109-0.187-0.156-0.266-0.094-0.078 0.047-0.078 0.172 0 0.281s0.203 0.156 0.266 0.109zM6.156 21.125c0.063-0.063 0.031-0.203-0.063-0.297-0.109-0.109-0.25-0.125-0.313-0.047-0.078 0.063-0.047 0.203 0.063 0.297 0.109 0.109 0.25 0.125 0.313 0.047zM7.047 21.516c0.031-0.094-0.063-0.203-0.203-0.25-0.125-0.031-0.266 0.016-0.297 0.109s0.063 0.203 0.203 0.234c0.125 0.047 0.266 0 0.297-0.094zM8.031 21.594c0-0.109-0.125-0.187-0.266-0.172-0.141 0-0.25 0.078-0.25 0.172 0 0.109 0.109 0.187 0.266 0.172 0.141 0 0.25-0.078 0.25-0.172zM8.937 21.438c-0.016-0.094-0.141-0.156-0.281-0.141-0.141 0.031-0.234 0.125-0.219 0.234 0.016 0.094 0.141 0.156 0.281 0.125s0.234-0.125 0.219-0.219z"></path>
+</svg>
+
+    </a>
+  
+
+  
+    <a id="github-link"
+       class="icon" title="Email" aria-label="Email"
+       href="mailto:shamsi.saqib@gmail.com">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 12.713l-11.985-9.713h23.97l-11.985 9.713zm0 2.574l-12-9.725v15.438h24v-15.438l-12 9.725z"/></svg>
+    </a>
+  
+
+  
+	<a id="twitter-link"
+       class="icon" title="Twitter" aria-label="Twitter"
+       href="https://twitter.com/saqibns">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/></svg>
+    </a>
+  
+
+  
+	<a id="linkedin-link"
+       class="icon" title="LinkedIn" aria-label="LinkedIn"
+       href="https://www.linkedin.com/in/snshamsi/">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z"/></svg>
+    </a>
+  
+  
+  
+  
+
+  
+    <a id="tags-link"
+       class="icon"
+       title="Tags" aria-label="Tags"
+       href="/tags.html">
+      <svg fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0 0h24v24H0z" fill="none"/>
+    <path d="M17.63 5.84C17.27 5.33 16.67 5 16 5L5 5.01C3.9 5.01 3 5.9 3 7v10c0 1.1.9 1.99 2 1.99L16 19c.67 0 1.27-.33 1.63-.84L22 12l-4.37-6.16z"/>
+</svg>
+    </a>
+  
+
+  
+    <a id="search-link"
+       class="icon"
+       title="Search" aria-label="Search"
+       href="/search.html">
+      <svg fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/>
+    <path d="M0 0h24v24H0z" fill="none"/>
+</svg>
+    </a>
+  
+
+  <!-- Optional additional links to insert for icons links -->
+</nav>
+
+  <p>
+  &copy; Saqib Nizam Shamsi. 2018.
+  Powered by <a href="http://jekyllrb.com" target="_blank">Jekyll</a>, <a href="https://fongandrew.github.io/hydeout/" target="_blank">Hydeout</a> and <a href="https://pages.github.com/" target="_blank">GitHub Pages </a>
+</p>
+
+</div>
+
+
+    <main class="container">
+      <header>
+  <h1 class="post-title">Predicting Emotions of a Group</h1>
+</header>
+<div class="content">
+  <div class="post-meta">
+  <span class="post-date">30 Dec 2017</span>
+  <span class="post-categories">
+    
+  </span>
+</div>
+
+  <div class="post-body">
+    <p><a href="https://sites.google.com/site/emotiwchallenge/">Emotion Recognition In the Wild (EmotiW)</a> is a competition organized under the umbrella of <a href="https://icmi.acm.org/2017/">International Conference on Multimodal Interaction (ICMI)</a>. The competition is being organized since 2013. The  competition for the year 2017 consisted of two sub-challenges :</p>
+
+<ul>
+  <li>Group Level Emotion Recognition</li>
+  <li>Audio-Video Emotion Recognition</li>
+</ul>
+
+<p>I participated in the former with <a href="https://bhanu-mnit.github.io/">Bhanu Pratap Singh Rawat</a> and Manya Wadhwa. We were given a dataset which contained photographs of groups of people. The aim of the sub-challenge was to come up with a model that could classify the emotion the group as <code class="highlighter-rouge">Positive</code>, <code class="highlighter-rouge">Negative</code> or <code class="highlighter-rouge">Neural</code>. This post describes our approach for the challenge.</p>
+
+<h2 id="dataset">Dataset</h2>
+
+<p>The dataset was divided into three parts: train, validation and test. Each part consisted of image files for each of our target categories: <code class="highlighter-rouge">Positive</code>, <code class="highlighter-rouge">Negative</code> or <code class="highlighter-rouge">Neutral</code>. The distribution of images in the dataset is:</p>
+
+<table class="mbtablestyle">
+  <thead>
+    <tr>
+      <th>Set</th>
+      <th>Positive</th>
+      <th>Neutral</th>
+      <th>Negative</th>
+      <th>Total</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Train</strong></td>
+      <td>1272</td>
+      <td>1199</td>
+      <td>1159</td>
+      <td>3630</td>
+    </tr>
+    <tr>
+      <td><strong>Validation</strong></td>
+      <td>773</td>
+      <td>728</td>
+      <td>564</td>
+      <td>2065</td>
+    </tr>
+    <tr>
+      <td><strong>Test</strong></td>
+      <td>311</td>
+      <td>165</td>
+      <td>296</td>
+      <td>772</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>A sample of images from the dataset is given below:</p>
+
+<p><img src="/assets/emotiw-17/group_snapshot.png" alt="Sample Images in the EmotiW Dataset" /></p>
+
+<h2 id="method">Method</h2>
+
+<p><strong>Summary:</strong> We used ConvNets for our task with emotion heatmaps as features. If you wish to know the specifics of what emotion heatmaps are, read on!</p>
+
+<h3 id="emotion-of-individual-faces">Emotion of Individual Faces</h3>
+
+<p>The first step of our approach was to extract faces from each file and determine the emotion of each face. We extracted faces from the files using <a href="http://dlib.net/">Dlib</a> and determined the emotion for each of the extracted faces. This was done using the pre-trained <a href="https://www.openu.ac.il/home/hassner/projects/cnn_emotions/">models</a> by Gil Levi and Tal Hassner developed for EmotiW 2015 (we shall refer to them as <em>LHModels</em> throughout the post). It is a set of five models which assign scores for seven standard emotions: Anger, Disgust, Fear, Happy, Neutral, Sad and Surprise. A single score for each face across the seven categories is obtained by averaging the five scores obtained for each category.</p>
+
+<h3 id="combination-of-values">Combination of Values</h3>
+
+<p>Once we obtained face wise emotions, a logical next step was to use the scores obtained for individual faces and somehow combine them to enable a learning algorithm to accurately determine the emotion of a group.</p>
+
+<p>We averaged five vectors obtained for every face in the image. The emotion with the highest value was said to be the overall emotion of the group. We then trained a Random Forest Classifier (15 estimators) with the averaged seven-dimensional vector for each image.</p>
+
+<p>For both of the cases above, if an image was labeled as one of Anger, Disgust, Fear, Sadness or Surprised the final label assigned to it was Negative, Neutral was assigned Neutral and Happy was assigned Positive. The performance for each of the approaches is summarized in a table later.</p>
+
+<p>We then used the predictions of LHModels to generate heatmaps for our images. The first step was to convert the seven-dimensional vectors into three-dimensional vectors representing our three categories of interest, <code class="highlighter-rouge">Positive</code>, <code class="highlighter-rouge">Negative</code> and <code class="highlighter-rouge">Neutral</code>. We did this by taking the average of Anger, Disgust, Fear, Sadness and Surprised designating it the label <code class="highlighter-rouge">Negative</code>, Happy was given the label <code class="highlighter-rouge">Positive</code>, and Neutral was assigned <code class="highlighter-rouge">Neutral</code>.</p>
+
+<p>After this step, we had a set of three values for every face (one corresponding to each emotion). We used those to create three heatmaps, which, actually, are Gaussian interpolations of those values in a two-dimensional space.  The code snippet below creates a two-dimensional Gaussian kernel. The height and width of the kernel are same as that of the image in which the face was present. When interpolating, we observed that the values fell quickly as we went away from the center of the heatmap, since the distance increases rapidly. We used a value of 0.1 to make the values decrease gradually over distance (in other words, the effective distance from one pixel to the next was reduced to 1/10<sup>th</sup> of its original value).</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="n">np</span>
+
+<span class="n">DISTANCE_SMOOTHING</span> <span class="o">=</span> <span class="mf">0.1</span>
+
+
+<span class="k">def</span> <span class="nf">make_gaussian</span><span class="p">(</span><span class="n">width</span><span class="p">,</span> <span class="n">height</span><span class="p">,</span> <span class="n">center</span><span class="o">=</span><span class="bp">None</span><span class="p">,</span> <span class="n">fwhm</span> <span class="o">=</span> <span class="mi">3</span><span class="p">):</span>
+    <span class="s">""" Make a square gaussian kernel.
+    fwhm is full-width-half-maximum, which
+    can be thought of as an effective radius.
+    """</span>
+
+    <span class="n">x</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">width</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="nb">float</span><span class="p">)</span>
+    <span class="n">y</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">height</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="nb">float</span><span class="p">)</span>
+    <span class="n">y</span><span class="o">.</span><span class="n">shape</span> <span class="o">=</span> <span class="p">(</span><span class="n">height</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
+    
+    <span class="k">if</span> <span class="n">center</span> <span class="ow">is</span> <span class="bp">None</span><span class="p">:</span>
+        <span class="n">x0</span> <span class="o">=</span> <span class="n">y0</span> <span class="o">=</span> <span class="n">size</span> <span class="o">//</span> <span class="mi">2</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">x0</span><span class="p">,</span> <span class="n">y0</span> <span class="o">=</span> <span class="n">center</span>
+    
+    <span class="k">return</span> <span class="n">np</span><span class="o">.</span><span class="n">exp</span><span class="p">(</span><span class="o">-</span><span class="mi">4</span> <span class="o">*</span> <span class="n">np</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span> <span class="o">*</span> <span class="p">((</span><span class="n">DISTANCE_SMOOTHING</span> <span class="o">*</span> <span class="p">(</span><span class="n">x</span><span class="o">-</span><span class="n">x0</span><span class="p">))</span> <span class="o">**</span> <span class="mi">2</span> <span class="o">+</span> <span class="p">(</span><span class="n">DISTANCE_SMOOTHING</span> <span class="o">*</span> <span class="p">(</span><span class="n">y</span><span class="o">-</span><span class="n">y0</span><span class="p">))</span> <span class="o">**</span> <span class="mi">2</span><span class="p">)</span> <span class="o">/</span> <span class="n">fwhm</span> <span class="o">**</span> <span class="mi">2</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>The kernel is then multiplied by the value of the emotion for that face. Let us take the face below as an example:</p>
+
+<p><img src="/assets/emotiw-17/image_0_0.jpg" alt="image_0_0" /></p>
+
+<p>The heatmaps (2D Gaussian distributions) for <code class="highlighter-rouge">Negative</code>, <code class="highlighter-rouge">Positive</code> and <code class="highlighter-rouge">Neutral</code> emotion values for the above face are:</p>
+
+<p><img src="/assets/emotiw-17/image_0_0.jpg_gaussian_neg-crop.png" alt="image_0_0.jpg_gaussian_neg-crop" /></p>
+
+<p><img src="/assets/emotiw-17/image_0_0.jpg_gaussian_neu-crop.png" alt="image_0_0.jpg_gaussian_neu-crop" /></p>
+
+<p><img src="/assets/emotiw-17/image_0_0.jpg_gaussian_pos-crop.png" alt="image_0_0.jpg_gaussian_pos-crop" /></p>
+
+<p>We, then used the individual heatmaps as channels of an RGB image, with distribution for <code class="highlighter-rouge">Negative</code> emotion being the red channel and those of <code class="highlighter-rouge">Neutral</code> and <code class="highlighter-rouge">Positive</code> forming the green and the blue channels respectively. For the face shown above, the final heatmap looks like the image below:</p>
+
+<p><img src="/assets/emotiw-17/image_0_0.jpg_combined.png" alt="image_0_0.jpg_combined" /></p>
+
+<p>We carry out this process for every face in an image and finally add the RGB images tensor together, thus forming a single image.</p>
+
+<p><img src="/assets/emotiw-17/image-process.jpg" alt="image process" /></p>
+
+<p>​The image above demonstrates the entire process of converting an image to a heatmap. The final heatmap was then resized and fed to Convolutional Neural Networks. Using this methodology, we achieved a classification accuracy of 56.47% on the validation set. The baseline was 52.79%.</p>
+
+<p>A table summarizing the performance of the approaches is given below.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Model</th>
+      <th>Training Accuracy</th>
+      <th>Validation Accuracy</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Baseline</td>
+      <td>-</td>
+      <td>52.79%</td>
+    </tr>
+    <tr>
+      <td>Averaging</td>
+      <td>44.37%</td>
+      <td>42.38%</td>
+    </tr>
+    <tr>
+      <td>Random Forest</td>
+      <td>99.08%</td>
+      <td>48.13%</td>
+    </tr>
+    <tr>
+      <td>ConvNet on Heatmaps</td>
+      <td>54.16%​</td>
+      <td>56.47%</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Please refer to our <a href="https://arxiv.org/abs/1710.01216">paper</a> for more details.</p>
+
+<div id="disqus_thread">
+    <button class="disqus-load" onclick="loadDisqusComments()">
+      Load Comments
+    </button>
+  </div>
+<script>
+
+  /**
+  *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW
+  *  TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+  *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT:s
+  *  https://disqus.com/admin/universalcode/#configuration-variables
+  */
+  var disqus_config = function () {
+    this.page.url = "http://localhost:4000/2017/12/30/predicting-emotions-of-a-group.html";
+    this.page.identifier = "" ||
+                           "http://localhost:4000/2017/12/30/predicting-emotions-of-a-group.html";
+  }
+  function loadDisqusComments() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = '//saqibns-github-io.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+  }
+  </script>
+
+<noscript>
+    Please enable JavaScript to view the
+    <a href="https://disqus.com/?ref_noscript">comments powered by Disqus</a>.
+  </noscript>
+
+
+    
+
+
+
+<div class="post-tags">
+  
+    
+    <a href="/tags.html#vision">
+    
+      <span class="icon">
+        <svg fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0 0h24v24H0z" fill="none"/>
+    <path d="M17.63 5.84C17.27 5.33 16.67 5 16 5L5 5.01C3.9 5.01 3 5.9 3 7v10c0 1.1.9 1.99 2 1.99L16 19c.67 0 1.27-.33 1.63-.84L22 12l-4.37-6.16z"/>
+</svg>
+      </span>&nbsp;<span class="tag-name">vision</span>
+    </a>
+  
+    
+    <a href="/tags.html#emotion-detection">
+    
+      <span class="icon">
+        <svg fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0 0h24v24H0z" fill="none"/>
+    <path d="M17.63 5.84C17.27 5.33 16.67 5 16 5L5 5.01C3.9 5.01 3 5.9 3 7v10c0 1.1.9 1.99 2 1.99L16 19c.67 0 1.27-.33 1.63-.84L22 12l-4.37-6.16z"/>
+</svg>
+      </span>&nbsp;<span class="tag-name">emotion detection</span>
+    </a>
+  
+    
+    <a href="/tags.html#competition">
+    
+      <span class="icon">
+        <svg fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0 0h24v24H0z" fill="none"/>
+    <path d="M17.63 5.84C17.27 5.33 16.67 5 16 5L5 5.01C3.9 5.01 3 5.9 3 7v10c0 1.1.9 1.99 2 1.99L16 19c.67 0 1.27-.33 1.63-.84L22 12l-4.37-6.16z"/>
+</svg>
+      </span>&nbsp;<span class="tag-name">competition</span>
+    </a>
+  
+</div>
+  </div>
+
+  
+  <section class="comments">
+    <h2>Comments</h2>
+    
+  <div id="disqus_thread">
+    <button class="disqus-load" onClick="loadDisqusComments()">
+      Load Comments
+    </button>
+  </div>
+  <script>
+
+  /**
+  *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW
+  *  TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+  *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT:s
+  *  https://disqus.com/admin/universalcode/#configuration-variables
+  */
+  var disqus_config = function () {
+    this.page.url = "http://localhost:4000/2017/12/30/predicting-emotions-of-a-group.html";
+    this.page.identifier = "" ||
+                           "http://localhost:4000/2017/12/30/predicting-emotions-of-a-group.html";
+  }
+  function loadDisqusComments() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = '//saqibns-github-io.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+  }
+  </script>
+  <noscript>
+    Please enable JavaScript to view the
+    <a href="https://disqus.com/?ref_noscript">comments powered by Disqus</a>.
+  </noscript>
+
+
+
+  </section>
+
+  <section class="related">
+  <h2>Related Posts</h2>
+  <ul class="posts-list">
+    
+      <li>
+        <h3>
+          <a href="/2018/01/14/list-of-ML-competitions-2018.html">
+            A List of Machine Learning Challenges in 2018
+            <small>14 Jan 2018</small>
+          </a>
+        </h3>
+      </li>
+    
+  </ul>
+</section>
+
+</div>
+
+    </main>
+
+    <!-- Optional footer content -->
+
+  </body>
+</html>

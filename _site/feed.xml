@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-08-31T08:26:30+05:30</updated><id>http://localhost:4000/</id><title type="html">Saqib’s Blog</title><subtitle>Trying to get better at things, little by little</subtitle><author><name>Saqib Nizam Shamsi</name></author><entry><title type="html">A List of Machine Learning Challenges in 2018</title><link href="http://localhost:4000/2018/01/14/list-of-ML-competitions-2018.html" rel="alternate" type="text/html" title="A List of Machine Learning Challenges in 2018" /><published>2018-01-14T00:00:00+05:30</published><updated>2018-01-14T12:25:36+05:30</updated><id>http://localhost:4000/2018/01/14/list-of-ML-competitions-2018</id><content type="html" xml:base="http://localhost:4000/2018/01/14/list-of-ML-competitions-2018.html">&lt;p&gt;Competitions are a great way to excel in machine learning. They offer various advantages in addtion to gaining knowledge and developing your skillset.&lt;/p&gt;
+
+&lt;p&gt;The problems and goals are very welll defined. This saves you from the hassle of coming up with a problem, defining the goals rigorously, which are both achievable and non-trivial. You are also provided with data, which in most cases is ready for use. Someone has already done the painstaking work of collecting, preprocessing and organizing data. If it’s a competition on supervised learning, you also get labels for the data.&lt;/p&gt;
+
+&lt;p&gt;If you’re a procrastinator, you have deadlines to your rescue. They keep you focused and prevent you from going astray ;)&lt;/p&gt;
+
+&lt;p&gt;Competition leaderboards (if the competition has one), push you to do better. They keep things in perspective by giving continuous feedback on how you’re doing relative to others. You struggle to find better solutions, try to surpass yourself, and in the process keep growing.&lt;/p&gt;
+
+&lt;p&gt;Finally, the rewards. They come in various forms. Monetary rewards are one. The satisfaction of solving a challenging problems and growing is another. But the main motivation for writing this post is the third kind of reward. If you’re a top performer in a competition organized under a conference, you get a chance to publish your results.&lt;/p&gt;
+
+&lt;p&gt;I was looking for a curated list of such competitions but couldn’t find any. So, decided to make one. The table below summarizes all the competitons I could find. They have been ordered according to their deadlines. I plan on updating the list on a regular basis. As more conferences release information about the competitions on their website, I’ll add them to the list.&lt;/p&gt;
+
+&lt;p&gt;If you know of any competition that is not on the list, please let me know in the comments or feel free to send a pull request.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Name&lt;/th&gt;
+      &lt;th&gt;Conference&lt;/th&gt;
+      &lt;th&gt;Starts&lt;/th&gt;
+      &lt;th&gt;Ends&lt;/th&gt;
+      &lt;th&gt;Website&lt;/th&gt;
+      &lt;th&gt;Sub-&lt;br /&gt;Challenges&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;del&gt;&lt;a name=&quot;microrobotics-table&quot;&gt;&lt;/a&gt;&lt;a href=&quot;#microrobotics&quot;&gt;Mobile Microrobotics Challenge&lt;/a&gt;&lt;/del&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;del&gt;&lt;a href=&quot;http://icra2018.org/&quot;&gt;ICRA&lt;/a&gt;&lt;/del&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;del&gt;15th December, ‘17&lt;/del&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;del&gt;16th February&lt;/del&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;del&gt;&lt;a href=&quot;http://icra2018.org/mobile-microrobotics-challenge-2018/&quot;&gt;Link&lt;/a&gt;&lt;/del&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;del&gt;03&lt;/del&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;del&gt;&lt;a name=&quot;disguisedfaces-table&quot;&gt;&lt;/a&gt;&lt;a href=&quot;#disguisedfaces-cvpr&quot;&gt;Disguised Faces Workshop Challenge&lt;/a&gt;&lt;/del&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;del&gt;&lt;a href=&quot;http://cvpr2018.thecvf.com/program/workshops&quot;&gt;CVPR&lt;/a&gt;&lt;/del&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;del&gt;20th January&lt;/del&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;del&gt;20th February&lt;/del&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;del&gt;&lt;a href=&quot;http://iab-rubric.org/DFW/Competition.html&quot;&gt;Link&lt;/a&gt;&lt;/del&gt;&lt;/td&gt;
+      &lt;td&gt;-&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;del&gt;&lt;a name=&quot;ntire-cvpr-table&quot;&gt;&lt;/a&gt;&lt;a href=&quot;#ntire-cvpr&quot;&gt;New Trends in Image Restoration and Enhancement (NTIRE) Challenge&lt;/a&gt;&lt;/del&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;del&gt;&lt;a href=&quot;http://cvpr2018.thecvf.com/program/workshops&quot;&gt;CVPR&lt;/a&gt;&lt;/del&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;del&gt;10th January&lt;/del&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;del&gt;27th February&lt;/del&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;del&gt;&lt;a href=&quot;http://www.vision.ee.ethz.ch/en/ntire18/&quot;&gt;Link&lt;/a&gt;&lt;/del&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;del&gt;03&lt;/del&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;del&gt;&lt;a name=&quot;interspeech-table&quot;&gt;&lt;/a&gt;&lt;a href=&quot;#interspeech&quot;&gt;Interspeech Computational Paralinguistics ChallengE (ComParE)&lt;/a&gt;&lt;/del&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;del&gt;&lt;a href=&quot;http://interspeech2018.org/&quot;&gt;Interspeech&lt;/a&gt;&lt;/del&gt;&lt;/td&gt;
+      &lt;td&gt;-&lt;/td&gt;
+      &lt;td&gt;&lt;del&gt;16th March&lt;/del&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;del&gt;&lt;a href=&quot;http://emotion-research.net/workshops_folder/workshop.2018-02-12.9681548687&quot;&gt;Link&lt;/a&gt;&lt;/del&gt;&lt;/td&gt;
+      &lt;td&gt;-&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;del&gt;&lt;a name=&quot;aicity-table&quot;&gt;&lt;/a&gt;&lt;a href=&quot;#aicity&quot;&gt;Nvidia AI City Challenge&lt;/a&gt;&lt;/del&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;del&gt;&lt;a href=&quot;http://cvpr2018.thecvf.com/program/workshops&quot;&gt;CVPR&lt;/a&gt;&lt;/del&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;del&gt;10th December, ‘17&lt;/del&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;del&gt;31st March&lt;/del&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;del&gt;&lt;a href=&quot;https://www.aicitychallenge.org/&quot;&gt;Link&lt;/a&gt;&lt;/del&gt;&lt;/td&gt;
+      &lt;td&gt;-&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;del&gt;&lt;a name=&quot;ug2-table&quot;&gt;&lt;/a&gt;&lt;a href=&quot;#ug2&quot;&gt;UG&lt;sup&gt;2&lt;/sup&gt; Prize Challenge&lt;/a&gt;&lt;/del&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;del&gt;&lt;a href=&quot;http://cvpr2018.thecvf.com/program/workshops&quot;&gt;CVPR&lt;/a&gt;&lt;/del&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;del&gt;15th January&lt;/del&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;del&gt;2nd April&lt;/del&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;del&gt;&lt;a href=&quot;http://www.ug2challenge.org/&quot;&gt;Link&lt;/a&gt;&lt;/del&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;del&gt;02&lt;/del&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;del&gt;&lt;a name=&quot;djirobomaster-table&quot;&gt;&lt;/a&gt;&lt;a href=&quot;#djirobomaster&quot;&gt;DJI RoboMaster AI Challenge&lt;/a&gt;&lt;/del&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;del&gt;&lt;a href=&quot;http://icra2018.org/&quot;&gt;ICRA&lt;/a&gt;&lt;/del&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;del&gt;1st January&lt;/del&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;del&gt;10th April&lt;/del&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;del&gt;&lt;a href=&quot;http://icra2018.org/dji-robomaster-ai-challenge/&quot;&gt;Link&lt;/a&gt;&lt;/del&gt;&lt;/td&gt;
+      &lt;td&gt;-&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;del&gt;&lt;a name=&quot;clic-table&quot;&gt;&lt;/a&gt;&lt;a href=&quot;#clic&quot;&gt;Challenge on Learned Image Compression (CLIC)&lt;/a&gt;&lt;/del&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;del&gt;&lt;a href=&quot;http://cvpr2018.thecvf.com/program/workshops&quot;&gt;CVPR&lt;/a&gt;&lt;/del&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;del&gt;24th December, ‘17&lt;/del&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;del&gt;22nd April&lt;/del&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;del&gt;&lt;a href=&quot;http://www.compression.cc/challenge/&quot;&gt;Link&lt;/a&gt;&lt;/del&gt;&lt;/td&gt;
+      &lt;td&gt;-&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;del&gt;&lt;a name=&quot;landmark-table&quot;&gt;&lt;/a&gt;&lt;a href=&quot;#landmark&quot;&gt;Large-Scale Landmark Recognition&lt;/a&gt;&lt;/del&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;del&gt;&lt;a href=&quot;http://cvpr2018.thecvf.com/program/workshops&quot;&gt;CVPR&lt;/a&gt;&lt;/del&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;del&gt;1st January&lt;/del&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;del&gt;1st May&lt;/del&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;del&gt;&lt;a href=&quot;https://landmarkscvprw18.github.io/&quot;&gt;Link&lt;/a&gt;&lt;/del&gt;&lt;/td&gt;
+      &lt;td&gt;-&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;del&gt;&lt;a name=&quot;robust-vision-table&quot;&gt;&lt;/a&gt;&lt;a href=&quot;#robust-vision&quot;&gt;Robust Vision Challenge&lt;/a&gt;&lt;/del&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;del&gt;&lt;a href=&quot;http://cvpr2018.thecvf.com/program/workshops&quot;&gt;CVPR&lt;/a&gt;&lt;/del&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;del&gt;1st February&lt;/del&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;del&gt;15th May&lt;/del&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;del&gt;&lt;a href=&quot;http://www.robustvision.net/&quot;&gt;Link&lt;/a&gt;&lt;/del&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;del&gt;06&lt;/del&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;del&gt;&lt;a name=&quot;eat-table&quot;&gt;&lt;/a&gt;&lt;a href=&quot;#eat&quot;&gt;ICMI 2018 EAT&lt;/a&gt;&lt;/del&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;del&gt;&lt;a href=&quot;https://icmi.acm.org/2018/index.php?id=challenges&quot;&gt;ICMI&lt;/a&gt;&lt;/del&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;del&gt;4th April&lt;/del&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;del&gt;29th May&lt;/del&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;del&gt;&lt;a href=&quot;https://icmi-eat.ihearu-play.eu/&quot;&gt;Link&lt;/a&gt;&lt;/del&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;del&gt;03&lt;/del&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;del&gt;&lt;a name=&quot;kddcup-table&quot;&gt;&lt;/a&gt;&lt;a href=&quot;#kddcup&quot;&gt;KDD Cup&lt;/a&gt;&lt;/del&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;del&gt;&lt;a href=&quot;http://www.kdd.org/kdd2018/&quot;&gt;KDD&lt;/a&gt;&lt;/del&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;del&gt;15th March&lt;/del&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;del&gt;31st May&lt;/del&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;del&gt;&lt;a href=&quot;https://biendata.com/competition/kdd_2018/&quot;&gt;Link&lt;/a&gt;&lt;/del&gt;&lt;/td&gt;
+      &lt;td&gt;-&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;del&gt;&lt;a name=&quot;lip-table&quot;&gt;&lt;/a&gt;&lt;a href=&quot;#lip&quot;&gt;The Look Into Person (LIP) Challenge&lt;/a&gt;&lt;/del&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;del&gt;&lt;a href=&quot;http://cvpr2018.thecvf.com/program/workshops&quot;&gt;CVPR&lt;/a&gt;&lt;/del&gt;&lt;/td&gt;
+      &lt;td&gt;-&lt;/td&gt;
+      &lt;td&gt;&lt;del&gt;4th June&lt;/del&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;del&gt;&lt;a href=&quot;https://vuhcs.github.io/&quot;&gt;Link&lt;/a&gt;&lt;/del&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;del&gt;05&lt;/del&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;del&gt;&lt;a name=&quot;activitynet-table&quot;&gt;&lt;/a&gt;&lt;a href=&quot;#activitynet&quot;&gt;ActivityNet Large-Scale Activity Recognition Challenge&lt;/a&gt;&lt;/del&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;del&gt;&lt;a href=&quot;http://cvpr2018.thecvf.com/program/workshops&quot;&gt;CVPR&lt;/a&gt;&lt;/del&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;del&gt;7th December, ‘17&lt;/del&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;del&gt;8th June&lt;/del&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;del&gt;&lt;a href=&quot;http://activity-net.org/challenges/2018/index.html&quot;&gt;Link&lt;/a&gt;&lt;/del&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;del&gt;07&lt;/del&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;del&gt;&lt;a name=&quot;lowpowerir-table&quot;&gt;&lt;/a&gt;&lt;a href=&quot;#lowpowerir&quot;&gt;Low-Power Image Recognition Challenge&lt;/a&gt;&lt;/del&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;del&gt;&lt;a href=&quot;http://cvpr2018.thecvf.com/program/workshops&quot;&gt;CVPR&lt;/a&gt;&lt;/del&gt;&lt;/td&gt;
+      &lt;td&gt;-&lt;/td&gt;
+      &lt;td&gt;&lt;del&gt;18 June (Onsite)&lt;/del&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;del&gt;&lt;a href=&quot;https://rebootingcomputing.ieee.org/lpirc&quot;&gt;Link&lt;/a&gt;&lt;/del&gt;&lt;/td&gt;
+      &lt;td&gt;-&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;del&gt;&lt;a name=&quot;davis-table&quot;&gt;&lt;/a&gt;&lt;a href=&quot;#davis&quot;&gt;DAVIS Challenge on Video Object Segmentation&lt;/a&gt;&lt;/del&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;del&gt;&lt;a href=&quot;http://cvpr2018.thecvf.com/program/workshops&quot;&gt;CVPR&lt;/a&gt;&lt;/del&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;del&gt;1st April&lt;/del&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;del&gt;30th June&lt;/del&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;del&gt;&lt;a href=&quot;http://davischallenge.org/challenge2018/&quot;&gt;Link&lt;/a&gt;&lt;/del&gt;&lt;/td&gt;
+      &lt;td&gt;-&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;del&gt;&lt;a name=&quot;hearthstone-table&quot;&gt;&lt;/a&gt;&lt;a href=&quot;#hearthstone&quot;&gt;Hearthstone AI Competition&lt;/a&gt;&lt;/del&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;del&gt;&lt;a href=&quot;http://www.ieee-cig.org/&quot;&gt;CIG&lt;/a&gt;&lt;/del&gt;&lt;/td&gt;
+      &lt;td&gt;-&lt;/td&gt;
+      &lt;td&gt;&lt;del&gt;15th July&lt;/del&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;del&gt;&lt;a href=&quot;https://dockhorn.antares.uberspace.de/wordpress/&quot;&gt;Link&lt;/a&gt;&lt;/del&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;del&gt;02&lt;/del&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a name=&quot;prosthetics-table&quot;&gt;&lt;/a&gt;&lt;a href=&quot;#prosthetics&quot;&gt;AI for Prosthetics&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://nips.cc/&quot;&gt;NIPS&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;1st June&lt;/td&gt;
+      &lt;td&gt;30th Sep&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://www.crowdai.org/challenges/nips-2018-ai-for-prosthetics-challenge&quot;&gt;Link&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;-&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a name=&quot;convai2-table&quot;&gt;&lt;/a&gt;&lt;a href=&quot;#convai2&quot;&gt;ConvAI2&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://nips.cc/&quot;&gt;NIPS&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;21st Mar&lt;/td&gt;
+      &lt;td&gt;10th Oct&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;http://convai.io/&quot;&gt;Link&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;-&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a name=&quot;adversarial-vision-table&quot;&gt;&lt;/a&gt;&lt;a href=&quot;#adversarial-vision&quot;&gt;Adversarial Vision Challenge&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://nips.cc/&quot;&gt;NIPS&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;2nd July&lt;/td&gt;
+      &lt;td&gt;10th Oct&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://www.crowdai.org/challenges/nips-2018-adversarial-vision-challenge-robust-model-track/&quot;&gt;Link&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;03&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a name=&quot;particle-tracking-table&quot;&gt;&lt;/a&gt;&lt;a href=&quot;#particle-tracking&quot;&gt;TrackML: Particle Tracking Challenge&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://nips.cc/&quot;&gt;NIPS&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;1st July&lt;/td&gt;
+      &lt;td&gt;20th Oct&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://sites.google.com/site/trackmlparticle/&quot;&gt;Link&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;-&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a name=&quot;automl-table&quot;&gt;&lt;/a&gt;&lt;a href=&quot;#automl&quot;&gt;AutoML for Lifelong Machine Learning&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://nips.cc/&quot;&gt;NIPS&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;23rd July&lt;/td&gt;
+      &lt;td&gt;6th Nov&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://www.4paradigm.com/competition/nips2018&quot;&gt;Link&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;-&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a name=&quot;pommerman-table&quot;&gt;&lt;/a&gt;&lt;a href=&quot;#pommerman&quot;&gt;Pommerman&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://nips.cc/&quot;&gt;NIPS&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;1st June&lt;/td&gt;
+      &lt;td&gt;26th Nov&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://www.pommerman.com/&quot;&gt;Link&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;-&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a name=&quot;inclusiveimages-table&quot;&gt;&lt;/a&gt;&lt;a href=&quot;#inclusiveimages&quot;&gt;InclusiveImages&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://nips.cc/&quot;&gt;NIPS&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;4th Sep&lt;/td&gt;
+      &lt;td&gt;7th Dec&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://sites.google.com/view/inclusiveimages/&quot;&gt;Link&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;-&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a name=&quot;aido-table&quot;&gt;&lt;/a&gt;&lt;a href=&quot;#aido&quot;&gt; The AI Driving Olympics&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://nips.cc/&quot;&gt;NIPS&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;1st Oct&lt;/td&gt;
+      &lt;td&gt;7th Dec&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://www.duckietown.org/research/AI-Driving-Olympics&quot;&gt;Link&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;-&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a name=&quot;emocontext-table&quot;&gt;&lt;/a&gt;&lt;a href=&quot;#emocontext&quot;&gt;EmoContext&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://nips.cc/&quot;&gt;NIPS&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;21st Aug&lt;/td&gt;
+      &lt;td&gt;10th Jan, 2019&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://www.humanizing-ai.com/emocontext.html&quot;&gt;Link&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;-&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;disguised-faces-workshop-challenge&quot;&gt;&lt;a name=&quot;disguisedfaces-cvpr&quot;&gt;&lt;/a&gt;Disguised Faces Workshop Challenge&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;With recent advancements in deep learning, the capabilities of automatic face recognition have been significantly increased. However, face recognition in an unconstrained environment with non-cooperative users is still a research challenge, pertinent for users such as law enforcement agencies. While several covariates such as pose, expression, illumination, aging, and low resolution have received significant attention, “disguise” is still considered an arduous covariate of face recognition.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://iab-rubric.org/DFW/Competition.html&quot;&gt;Challenge Website&lt;/a&gt; | &lt;a href=&quot;#disguisedfaces-table&quot;&gt;Back&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;new-trends-in-image-restoration-and-enhancement-ntire-challenge&quot;&gt;&lt;a name=&quot;ntire-cvpr&quot;&gt;&lt;/a&gt;New Trends in Image Restoration and Enhancement (NTIRE) Challenge&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;NTIRE 2018 challenge on image super-resolution&lt;/strong&gt;
+In order to gauge the current state-of-the-art in (example-based) single-image super-resolution under realistic conditions, to compare and to promote different solutions we are organizing an NTIRE challenge in conjunction with the CVPR 2018 conference.&lt;/p&gt;
+
+  &lt;p&gt;&lt;strong&gt;The challenge has 3 tracks:&lt;/strong&gt;&lt;/p&gt;
+
+  &lt;p&gt;&lt;strong&gt;Track 1:&lt;/strong&gt; classic bicubic  uses the bicubic downscaling (Matlab imresize), the most common setting from the recent single-image super-resolution literature.
+&lt;strong&gt;Track 2:&lt;/strong&gt; realistic mild adverse conditions  assumes that the degradation operators (emulating the image acquisition process from a digital camera) can be estimated through training pairs of low and high-resolution images. The degradation operators are the same within an image space and for all the images.
+&lt;strong&gt;Track 3:&lt;/strong&gt; realistic difficult adverse conditions  assumes that the degradation operators (emulating the image acquisition process from a digital camera) can be estimated through training pairs of low and high-resolution images. The degradation operators are the same within an image space and for all the images.
+&lt;strong&gt;Track 4:&lt;/strong&gt; realistic wild conditions assumes that the degradation operators (emulating the image acquisition process from a digital camera) can be estimated through training pairs of low and high images. The degradation operators are the same within an image space but DIFFERENT from one image to another. This setting is the closest to real “wild” conditions.&lt;/p&gt;
+
+  &lt;p&gt;&lt;strong&gt;NTIRE 2018 challenge on image dehazing&lt;/strong&gt; 
+In order to gauge the current state-of-the-art in image dehazing for real haze as well as synthesized haze, to compare and to promote different solutions we are organizing an NTIRE challenge in conjunction with the CVPR 2018 conference. A novel dataset of real and synthesized hazy images with ground truth will be introduced with the challenge. It is the first image dehazing online challenge.&lt;/p&gt;
+
+  &lt;p&gt;&lt;strong&gt;The challenge has 3 tracks:&lt;/strong&gt;&lt;/p&gt;
+
+  &lt;p&gt;&lt;strong&gt;Track 1:&lt;/strong&gt; realistic haze uses synthesized hazy images, a common setting from the recent image dehazing literature.
+&lt;strong&gt;Track 2:&lt;/strong&gt; real haze with ground truth
+&lt;strong&gt;Track 3:&lt;/strong&gt; real haze with color reference&lt;/p&gt;
+
+  &lt;p&gt;&lt;strong&gt;NTIRE 2018 challenge on spectral reconstruction from RGB images&lt;/strong&gt;
+In order to gauge the current state-of-the-art in spectral reconstruction from RGB images, to compare and to promote different solutions we are organizing an NTIRE challenge in conjunction with the CVPR 2018 conference. The largest dataset to date will be introduced with the challenge. It is the first spectral reconstruction from RGB images online challenge.&lt;/p&gt;
+
+  &lt;p&gt;&lt;strong&gt;The challenge has 2 tracks:&lt;/strong&gt;&lt;/p&gt;
+
+  &lt;p&gt;&lt;strong&gt;Track 1:&lt;/strong&gt; “Clean”  recovering hyperspectral data from uncompressed 8-bit RGB images created by applying a know response function to ground truth hyperspectral information.
+&lt;strong&gt;Track 2:&lt;/strong&gt; “Real World”  recovering hyperspectral data from jpg-compressed 8-bit RGB images created by applying an unknown response function to ground truth hyperspectral information.&lt;/p&gt;
+
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.vision.ee.ethz.ch/en/ntire18/&quot;&gt;Challenge Website&lt;/a&gt; | &lt;a href=&quot;#ntire-cvpr-table&quot;&gt;Back&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;ug2-prize-challenge&quot;&gt;&lt;a name=&quot;ug2&quot;&gt;&lt;/a&gt;UG&lt;sup&gt;2&lt;/sup&gt; Prize Challenge&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;What is the current state-of-the art for image restoration and enhancement applied to images acquired under less than ideal circumstances?&lt;/p&gt;
+
+  &lt;p&gt;Can the application of enhancement algorithms as a pre-processing step improve image interpretability for manual analysis or automatic visual recognition to classify scene content?&lt;/p&gt;
+
+  &lt;p&gt;The UG&lt;sup&gt;2&lt;/sup&gt; Challenge seeks to answer these important questions for general applications related to computational photography and scene understanding. As a well-defined case study, the challenge aims to advance the analysis of images collected by small UAVs by improving image restoration and enhancement algorithm performance using the UG&lt;sup&gt;2&lt;/sup&gt; Dataset.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.ug2challenge.org/&quot;&gt;Challenge Website&lt;/a&gt; | &lt;a href=&quot;#ug2-table&quot;&gt;Back&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;challenge-on-learned-image-compression-clic&quot;&gt;&lt;a name=&quot;clic&quot;&gt;&lt;/a&gt;Challenge on Learned Image Compression (CLIC)&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Recent advances in machine learning have led to an increased interest in applying neural networks to the problem of compression.
+We propose hosting an image-compression challenge which specifically targets methods which have been traditionally overlooked, with a focus on neural networks (but also welcomes traditional approaches). Such methods typically consist of an encoder subsystem, taking images and producing representations which are more easily compressed than the pixel representation (e.g., it could be a stack of convolutions, producing an integer feature map), which is then followed by an arithmetic coder. The arithmetic coder uses a probabilistic model of integer codes in order to generate a compressed bit stream. The compressed bit stream makes up the file to be stored or transmitted. In order to decompress this bit stream, two additional steps are needed: first, an arithmetic decoder, which has a shared probability model with the encoder. This reconstructs (losslessly) the integers produced by the encoder. The last step consists of another decoder producing a reconstruction of the original image.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.compression.cc/challenge/&quot;&gt;Challenge Website&lt;/a&gt; | &lt;a href=&quot;#clic-table&quot;&gt;Back&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;large-scale-landmark-recognition&quot;&gt;&lt;a name=&quot;landmark&quot;&gt;&lt;/a&gt;Large-Scale Landmark Recognition&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;This workshop is to foster research on image retrieval and landmark recognition by introducing a novel large-scale dataset, together with evaluation protocols. More details will be available soon.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://landmarkscvprw18.github.io/&quot;&gt;Challenge Website&lt;/a&gt; | &lt;a href=&quot;#landmark-table&quot;&gt;Back&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;robust-vision-challenge&quot;&gt;&lt;a name=&quot;robust-vision&quot;&gt;&lt;/a&gt;Robust Vision Challenge&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The increasing availability of large annotated datasets such as Middlebury, PASCAL VOC, ImageNet, MS COCO, KITTI and Cityscapes has lead to tremendous progress in computer vision and machine learning over the last decade. Public leaderboards make it easy to track the state-of-the-art in the field by comparing the results of dozens of methods side-by-side. While steady progress is made on each individual dataset, many of them are limited to specific domains. KITTI, for example, focuses on real-world urban driving scenarios, while Middlebury considers indoor scenes and VIPER provides synthetic imagery in various weather conditions. Consequently, methods that are state-of-the-art on one dataset often perform worse on a different one or require substantial adaptation of the model parameters.&lt;/p&gt;
+
+  &lt;p&gt;The goal of this workshop is to foster the development of vision systems that are robust and consequently perform well on a variety of datasets with different characteristics. Towards this goal, we propose the Robust Vision Challenge, where performance on several tasks (eg, reconstruction, optical flow, semantic/instance segmentation, single image depth prediction) is measured across a number of challenging benchmarks with different characteristics, e.g., indoors vs. outdoors, real vs. synthetic, sunny vs. bad weather, different sensors. We encourage submissions of novel algorithms, techniques which are currently in review and methods that have already been published.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.robustvision.net/&quot;&gt;Challenge Website&lt;/a&gt; | &lt;a href=&quot;#robust-vision-table&quot;&gt;Back&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;activitynet-large-scale-activity-recognition-challenge&quot;&gt;&lt;a name=&quot;activitynet&quot;&gt;&lt;/a&gt;ActivityNet Large-Scale Activity Recognition Challenge&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;This challenge is the 3rd annual installment of the ActivityNet Large-Scale Activity Recognition Challenge, which was first hosted during CVPR 2016. It focuses on the recognition of daily life, high-level, goal-oriented activities from user-generated videos as those found in internet video portals.&lt;/p&gt;
+
+  &lt;p&gt;We are proud to announce that this year the challenge will hosts seven diverse tasks which aim to push the limits of semantic visual understanding of videos as well as bridging visual content with human captions. Three out of the seven tasks in the challenge are based on the &lt;a href=&quot;http://activity-net.org/&quot;&gt;ActivityNet dataset&lt;/a&gt;, which was introduced in CVPR 2015 and organized hierarchically in a semantic taxonomy. These tasks focus on trace evidence of activities in time in the form of actionness/proposals, class labels, and &lt;a href=&quot;http://cs.stanford.edu/people/ranjaykrishna/densevid/&quot;&gt;captions&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://activity-net.org/challenges/2018/index.html&quot;&gt;Challenge Website&lt;/a&gt; | &lt;a href=&quot;#activitynet-table&quot;&gt;Back&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;kdd-cup&quot;&gt;&lt;a name=&quot;kddcup&quot;&gt;&lt;/a&gt;KDD Cup&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;SIGKDD-2018 will take place in London, UK in August 2018. The KDD Cup competition is anticipated to last for 2-4 months, and the winners will be notified by mid-June. The winners will be honored at the KDD conference opening ceremony and will present their solutions at the KDD Cup workshop during the conference. The winners are expected to be monetarily rewarded, with the first prize being in the ballpark of ten thousand dollars.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://biendata.com/competition/kdd_2018/&quot;&gt;Challenge Website&lt;/a&gt; | &lt;a href=&quot;#kddcup-table&quot;&gt;Back&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;dji-robomaster-ai-challenge&quot;&gt;&lt;a name=&quot;djirobomaster&quot;&gt;&lt;/a&gt;DJI RoboMaster AI Challenge&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;DJI started RoboMaster in 2015 as an educational robotics competition for talented engineers and scientists. The annual RoboMaster competition requires teams to build robots that use shooting mechanisms to battle with other robots. The performances of the robots are monitored by a specially designed referee system, converting projectile hits into health point deductions on hit robots. To visit past games and introductory videos visit &lt;a href=&quot;https://www.twitch.tv/robomaster&quot;&gt;https://www.twitch.tv/robomaster&lt;/a&gt;. To see the RoboMaster2018 promotional video, go to: &lt;a href=&quot;https://youtu.be/uI2uoV58pzQ&quot;&gt;https://youtu.be/uI2uoV58pzQ&lt;/a&gt;&lt;/p&gt;
+
+  &lt;p&gt;Each team will build 1 – 2 automatic AI robots. Robots will compete in a 5m x 8m arena, filled with various obstacles. Participants will design robots that autonomously shoot plastic projectiles. The objective is outcompeting advanced official DJI robots in a battle of the wits.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://icra2018.org/dji-robomaster-ai-challenge/&quot;&gt;Challenge Website&lt;/a&gt; | &lt;a href=&quot;#djirobomaster-table&quot;&gt;Back&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;mobile-microrobotics-challenge&quot;&gt;&lt;a name=&quot;microrobotics&quot;&gt;&lt;/a&gt;Mobile Microrobotics Challenge&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The IEEE Robotics &amp;amp; Automations Society (RAS) Micro/Nano Robotics &amp;amp; Automation Technical Committee (MNRA) invites applicants to participate in the 2018 Mobile Microrobotics Challenge (MMC), in which microrobots on the order of the diameter of a human hair face off in tests of autonomy, accuracy, and assembly.&lt;/p&gt;
+
+  &lt;p&gt;Teams can participate in up to three events:&lt;/p&gt;
+
+  &lt;ol&gt;
+    &lt;li&gt;Autonomous Manipulation &amp;amp; Accuracy Challenge: Microrobots must autonomously manipulate micro-components around fixed obstacles to a desired position and orientation superimposed on the substrate.  The objective is to manipulate the objects as precisely as possible to their goal locations and orientations in the shortest amount of time.&lt;/li&gt;
+    &lt;li&gt;Microassembly Challenge:  Microrobots must assemble multiple microscale components inside a narrow channel in a fixed amount of time. This task simulates anticipated applications of microassembly, including manipulation within a human blood vessel and the assembly of components in nanomanufacturing.&lt;/li&gt;
+    &lt;li&gt;MMC Showcase &amp;amp; Poster Session: Each team has an opportunity to showcase and demonstrate any advanced capabilities and/or functionality of their microrobot system. Each participating team will get one vote to determine the Best in Show winner.&lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://icra2018.org/mobile-microrobotics-challenge-2018/&quot;&gt;Challenge Website&lt;/a&gt; | &lt;a href=&quot;#microrobotics-table&quot;&gt;Back&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;interspeech-computational-paralinguistics-challenge-compare&quot;&gt;&lt;a name=&quot;interspeech&quot;&gt;&lt;/a&gt;Interspeech Computational Paralinguistics ChallengE (ComParE)&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The &lt;strong&gt;Interspeech Computational Paralinguistics ChallengE (ComParE)&lt;/strong&gt; series is an open Challenge in the field of Computational Paralinguistics dealing with states and traits of speakers as manifested in their speech signal’s properties. The Challenges takes annually place at INTERSPEECH since 2009. Every year, we introduce new tasks as there still exists a multiplicity of not yet covered, but highly relevant paralinguistic phenomena. The Challenge addresses the Audio, Speech, and Signal Processing, Natural Language Processing, Artificial Intelligence, Machine Learning, Affective &amp;amp; Behavioural Computing, Human-Computer/Robot-Interaction, mHealth, Psychology, and Medicine communities, and any other interested participants.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://compare.openaudio.eu/&quot;&gt;Challenge Website&lt;/a&gt; | &lt;a href=&quot;#interspeech-table&quot;&gt;Back&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;nvidia-ai-city-challenge&quot;&gt;&lt;a name=&quot;aicity&quot;&gt;&lt;/a&gt;Nvidia AI City Challenge&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;There will be 1 billion cameras by 2020. Transportation is one of the largest segments that can benefit from actionable insights derived from data captured by these cameras. Between traffic, signaling systems, transportation systems, infrastructure, and transit, the opportunity for insights from these cameras to make transportation systems safer and smarter is immense. Unfortunately, there are several reasons why these potential benefits have not yet materialized for this vertical. Poor data quality, the lack of labels for the data, and the lack of high quality models that can convert the data into actionable insights are some of the biggest impediments to unlocking the value of the data. There is also need for platforms that allow for appropriate analysis from edge to cloud, which will accelerate the development and deployment of these models. The NVIDIA AI City Challenge Workshop at CVPR 2018 will specifically focus on ITS problems such as&lt;/p&gt;
+
+  &lt;ul&gt;
+    &lt;li&gt;Estimating traffic flow and volume&lt;/li&gt;
+    &lt;li&gt;Leveraging unsupervised approaches to detect anomalies such as lane violation, illegal U-turns, wrong-direction driving. This is the only way to get the humans in the loop pay attention to meaningful visual information&lt;/li&gt;
+    &lt;li&gt;Multi-camera tracking, and object re-identification in urban environments.&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.aicitychallenge.org/&quot;&gt;Challenge Website&lt;/a&gt; | &lt;a href=&quot;#aicity-table&quot;&gt;Back&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;low-power-image-recognition-challenge&quot;&gt;&lt;a name=&quot;lowpowerir&quot;&gt;&lt;/a&gt;Low-Power Image Recognition Challenge&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Detect all relevant objects in as many images as possible of a common test set from the ImageNet object detection data set within 10 minutes.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://rebootingcomputing.ieee.org/lpirc&quot;&gt;Challenge Website (Old)&lt;/a&gt; | &lt;a href=&quot;#lowpowerir-table&quot;&gt;Back&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;the-look-into-person-lip-challenge&quot;&gt;&lt;a name=&quot;lip&quot;&gt;&lt;/a&gt;The Look Into Person (LIP) Challenge&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Developing solutions to comprehensive human visual understanding in the wild scenarios, regarded as one of the most fundamental problems in compute vision, could have a crucial impact in many industrial application domains, such as autonomous driving, virtual reality, video surveillance, human-computer interaction and human behavior analysis. For example, human parsing and pose estimation are often regarded as the very first step for higher-level activity/event recognition and detection. Nonetheless, a large gap seems to exist between what is needed by the real-life applications and what is achievable based on modern computer vision techniques. The goal of this workshop is to allow researchers from the fields of human visual understanding and other disciplines to present their progress, communication and co-develop novel ideas that potentially shape the future of this area and further advance the performance and applicability of correspondingly built systems in real-world conditions.&lt;/p&gt;
+
+  &lt;p&gt;To stimulate the progress on this research topic and attract more talents to work on this topic, we will also provide a first standard human parsing and pose benchmark on a new large-scale Look Into Person (LIP) dataset. This dataset is both larger and more challenging than similar previous ones in the sense that the new dataset contains 50,000 images with elaborated pixel-wise annotations with comprehensive 19 semantic human part labels and 2D human poses with 16 dense key points. The images collected from the real-world scenarios contain humans appearing with challenging poses and views, heavily occlusions, various appearances and low-resolutions. Details on the annotated classes and examples of our annotations are available at this link &lt;a href=&quot;http://hcp.sysu.edu.cn/lip/&quot;&gt;http://hcp.sysu.edu.cn/lip/&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://vuhcs.github.io/&quot;&gt;Challenge Website&lt;/a&gt; | &lt;a href=&quot;#lip-table&quot;&gt;Back&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;davis-challenge-on-video-object-segmentation&quot;&gt;&lt;a name=&quot;davis&quot;&gt;&lt;/a&gt;DAVIS Challenge on Video Object Segmentation&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;We present the 2017 DAVIS Challenge, a public competition specifically designed for the task of video object segmentation. Following the footsteps of other successful initiatives, such as ILSVRC and PASCAL VOC, which established the avenue of research in the fields of scene classification and semantic segmentation, the DAVIS Challenge comprises a dataset, an evaluation methodology, and a public competition with a dedicated workshop co-located with CVPR 2017. The DAVIS Challenge follows up on the recent publication of DAVIS (Densely-Annotated VIdeo Segmentation), which has fostered the development of several novel state-of-the-art video object segmentation techniques. In this paper we describe the scope of the benchmark, highlight the main characteristics of the dataset and define the evaluation metrics of the competition.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://davischallenge.org/challenge2018/&quot;&gt;Challenge Website&lt;/a&gt; | &lt;a href=&quot;#davis-table&quot;&gt;Back&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;tidy-up-my-room-challenge&quot;&gt;&lt;a name=&quot;tidyup&quot;&gt;&lt;/a&gt;Tidy Up My Room Challenge&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Robust interaction in domestic settings is still a hard problem for most robots. These settings tend to be unstructured, changing and aimed at humans not robots. This makes the grasping and picking of a wide range of objects in a person’s home a canonical problem for future robotic applications. With this challenge, we aim to foster a community around solving these tasks in a holistic fashion, requiring a tight integration of perception, reasoning and actuation.&lt;/p&gt;
+
+  &lt;p&gt;Robotics is an integration discipline and significant efforts are put in by labs worldwide every year to build robotic systems, yet it is hard to compare and validate these approaches against each other. Challenges and competitions have provided an opportunity to benchmark robotic systems on specific tasks, such as pick and place, and driving. We envision this challenge to contain multiple tasks and to increase in complexity over the years.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://icra2018.org/tidy-up-my-room-challenge/&quot;&gt;Challenge Website&lt;/a&gt; | &lt;a href=&quot;#tidyup-table&quot;&gt;Back&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;hearthstone-ai-competition&quot;&gt;&lt;a name=&quot;hearthstone&quot;&gt;&lt;/a&gt;Hearthstone AI Competition&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The collectible online card game Hearthstone features a rich testbed and poses unique demands for generating artificial intelligence agents. The game is a turn-based card game between two opponents, using constructed decks of thirty cards along with a selected hero with a unique power. Players use their limited mana crystals to cast spells or summon minions to attack their opponent, with the goal to reduce the opponent’s health to zero. The competition aims to promote the stepwise development of fully autonomous AI agents in the context of Hearthstone.&lt;/p&gt;
+
+  &lt;p&gt;Entrants will submit agents to participate in one of the two tracks:&lt;/p&gt;
+
+  &lt;ul&gt;
+    &lt;li&gt;&lt;strong&gt;Premade Deck Playing”-track&lt;/strong&gt;: participants will receive a list of decks and play out all combinations against each other. Determining and using the characteristics of player’s and the opponent’s deck to the player’s advantage will help in winning the game.&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;“User Created Deck Playing”-track&lt;/strong&gt;: the competition framework allows agents to define their own deck. Finding a deck that can consistently beat a vast amount of other decks will play a key role in this competition track. Additionally, it gives the participants the chance in optimizing the agents’ strategy to the characteristics of their chosen deck.&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://dockhorn.antares.uberspace.de/wordpress/&quot;&gt;Challenge Website&lt;/a&gt; | &lt;a href=&quot;#hearthstone-table&quot;&gt;Back&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;icmi-eating-analysis-and-tracking-challenge&quot;&gt;&lt;a name=&quot;eat&quot;&gt;&lt;/a&gt;ICMI Eating Analysis and Tracking Challenge&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The multimodal recognition of eating condition - whether a person is eating or not - and if yes, which food type, is a new research domain in the area of speech and video processing that has many promising applications for future multimodal interfaces such as: adapting speech recognition or lip reading systems to different eating conditions (e.g. dictation systems), health (e.g. ingestive behaviour), or security monitoring (e.g., when eating is not allowed).&lt;/p&gt;
+
+  &lt;ul&gt;
+    &lt;li&gt;
+      &lt;p&gt;We define three Sub-Challenges based on classification tasks in which participants are encouraged to use speech and/or video recordings:&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;ol&gt;
+        &lt;li&gt;&lt;strong&gt;Food-type Sub-Challenge&lt;/strong&gt;: Perform seven-class food classification per utterance&lt;/li&gt;
+        &lt;li&gt;&lt;strong&gt;Food-likability Sub-Challenge&lt;/strong&gt;: Recognize the subjects’ food likability rating&lt;/li&gt;
+        &lt;li&gt;&lt;strong&gt;Chew and Speak Sub-Challenge&lt;/strong&gt;: Recognize the level of difficulty to speak while eating&lt;/li&gt;
+      &lt;/ol&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://icmi-eat.ihearu-play.eu/&quot;&gt;Challenge Website&lt;/a&gt; | &lt;a href=&quot;#eat-table&quot;&gt;Back&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;automl-for-lifelong-machine-learning&quot;&gt;&lt;a name=&quot;automl&quot;&gt;&lt;/a&gt;AutoML for Lifelong Machine Learning&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;In many real-world machine learning applications, AutoML is strongly needed due to the limited machine learning expertise of developers. Moreover, batches of data in many real-world applications may be arriving daily, weekly, monthly, or yearly, for instance, and the data distributions are changing relatively slowly over time. This presents a continuous learning, or Lifelong Machine Learning challenge for an AutoML system. Typical learning problems of this kind include customer relationship management, on-line advertising, recommendation, sentiment analysis, fraud detection, spam filtering, transportation monitoring, econometrics, patient monitoring, climate monitoring, manufacturing and so on. In this competition, which we are calling &lt;strong&gt;AutoML for Lifelong Machine Learning&lt;/strong&gt;, &lt;strong&gt;large scale&lt;/strong&gt; datasets collected from some of these real-world applications will be used. Compared with previous AutoML competitions(&lt;a href=&quot;http://automl.chalearn.org/&quot;&gt;http://automl.chalearn.org/&lt;/a&gt;), the focus of this competition is on &lt;strong&gt;drifting concepts&lt;/strong&gt;, getting away from the simpler i.i.d. cases. Participants are invited to design a computer program capable of autonomously (without any human intervention) developing predictive models that are trained and evaluated in a lifelong machine learning setting.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.4paradigm.com/competition/nips2018&quot;&gt;Challenge Website&lt;/a&gt; | &lt;a href=&quot;#automl-table&quot;&gt;Back&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;adversarial-vision-challenge&quot;&gt;&lt;a name=&quot;adversarial-vision&quot;&gt;&lt;/a&gt;Adversarial Vision Challenge&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;In this competition you can take on the role of an attacker or a defender (or both). As a defender you are trying to build a visual object classifier that is as robust to image perturbations as possible. As an attacker, your task is to find the smallest possible image perturbations that will fool a classifier.&lt;/p&gt;
+
+  &lt;p&gt;The overall goal of this challenge is to facilitate measurable progress towards robust machine vision models and more generally applicable adversarial attacks. As of right now, modern machine vision algorithms are extremely susceptible to small and almost imperceptible perturbations of their inputs (so-called &lt;em&gt;adversarial examples&lt;/em&gt;). This property reveals an astonishing difference in the information processing of humans and machines and raises security concerns for many deployed machine vision systems like autonomous cars. Improving the robustness of vision algorithms is thus important to close the gap between human and machine perception and to enable safety-critical applications.&lt;/p&gt;
+
+  &lt;p&gt;There will be three tracks in which you and your team can compete:&lt;/p&gt;
+
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&quot;https://www.crowdai.org/organizers/bethgelab/challenges/nips-2018-adversarial-vision-challenge-robust-model-track&quot;&gt;Robust Model Track&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;https://www.crowdai.org/organizers/bethgelab/challenges/nips-2018-adversarial-vision-challenge-untargeted-attack-track&quot;&gt;Untargeted Attacks Track&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;https://www.crowdai.org/organizers/bethgelab/challenges/nips-2018-adversarial-vision-challenge-targeted-attack-track/&quot;&gt;Targeted Attacks Track&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.crowdai.org/challenges/nips-2018-adversarial-vision-challenge-robust-model-track/&quot;&gt;Challenge Website&lt;/a&gt; | &lt;a href=&quot;#adversarial-vision-table&quot;&gt;Back&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;trackml-particle-tracking-challenge&quot;&gt;&lt;a name=&quot;particle-tracking&quot;&gt;&lt;/a&gt;TrackML: Particle Tracking Challenge&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;We are organizing a data science competition to stimulate both the ML and HEP communities to renew the toolkit of physicists in preparation for the advent of the next generation of particle detectors in the Large Hadron Collider at CERN. With event rates already reaching hundred of millions of collisions per second, physicists must sift through ten of petabytes of data per year. Ever better software is needed for processing and filtering the most promising events. This will allow the LHC to fulfill its rich physics programme, understanding the private life of the Higgs boson, searching for the elusive dark matter,  or elucidating the dominance of matter over anti-matter in the observable Universe.&lt;/p&gt;
+
+  &lt;p&gt;To mobilise the scientific community around this problem, we are organizing the TrackML challenge, which objective is to use machine learning to quickly reconstruct particle tracks from points left in the silicon detectors. The challenge will be conducted in two phases:&lt;/p&gt;
+
+  &lt;ul&gt;
+    &lt;li&gt;the on-going Accuracy phase May-Aug 2018 :  favoring innovation of algorithms reaching the highest accuracy, with no speed concern.This phase has been accepted as an official IEEE WCCI 2018 competition (Rio de Janeiro, July 2018) This phase is &lt;a href=&quot;https://www.kaggle.com/c/trackml-particle-identification&quot;&gt;hosted by Kaggle&lt;/a&gt;.&lt;/li&gt;
+    &lt;li&gt;the Throughput phase Sep-Oct 2018 : focussing on speed optimisation. This phase has been accepted as an official NIPS 2018 competition (Montreal, December 2018). That phase will be hosted by Codalab.&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://sites.google.com/site/trackmlparticle/&quot;&gt;Challenge Website&lt;/a&gt; | &lt;a href=&quot;#particle-tracking-table&quot;&gt;Back&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;pommerman&quot;&gt;&lt;a name=&quot;pommerman&quot;&gt;&lt;/a&gt;Pommerman&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The game is Pommerman, a variant of the famous &lt;a href=&quot;https://youtu.be/Xef0tkXmSp4?t=34s&quot;&gt;Bomberman&lt;/a&gt;. There are four agents, power ups, and bombs galore in three modes. In FFA, enter an agent and be the last hero standing. In Team, enter a team of two agents that work together to beat the opponents. See &lt;a href=&quot;https://github.com/MultiAgentLearning/playground/tree/master/pommerman&quot;&gt;our Github&lt;/a&gt; for detailed information on gameplay, observations, and actions.&lt;/p&gt;
+
+  &lt;p&gt;Accomplishing tasks with infinitely meaningful variation is common in the real world and difficult to simulate. Competitive multi-agent learning enables this. Every game the agent plays is a novel environment with a new degree of difficulty. Of games that fit that description, Bomberman is a fun and intuitive one that people already love to play. Additionally, it is tenable for all participants as it’s not necessary to train with pixels.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.pommerman.com/&quot;&gt;Challenge Website&lt;/a&gt; | &lt;a href=&quot;#pommerman-table&quot;&gt;Back&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;inclusiveimages-a-challenge-of-distributional-skew-side-information-and-global-inclusion&quot;&gt;&lt;a name=&quot;inclusiveimages&quot;&gt;&lt;/a&gt;InclusiveImages: A Challenge of Distributional Skew, Side Information, and Global Inclusion&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;h4 id=&quot;introduction&quot;&gt;&lt;strong&gt;Introduction&lt;/strong&gt;&lt;/h4&gt;
+
+  &lt;p&gt;Questions surrounding machine learning fairness and inclusivity have attracted heightened attention in recent years, leading to a rapid emergence of a full area of research within the field of machine learning.&lt;/p&gt;
+
+  &lt;p&gt;To provide additional empirical grounding and a venue for head-to-head comparison of new methods, the InclusiveImages competition encourages researchers to develop modeling techniques that reduce the biases that may be encoded in large data sets.  In particular, this competition is focused on the challenge of &lt;em&gt;geographic skew&lt;/em&gt; encountered when the geographic distribution of training images does not fully represent levels of diversity encountered at test or inference time.&lt;/p&gt;
+
+  &lt;h4 id=&quot;how-the-competition-works&quot;&gt;How the Competition Works&lt;/h4&gt;
+
+  &lt;p&gt;Concretely, in this competition researchers will train on &lt;a href=&quot;https://www.google.com/url?q=https%3A%2F%2Fgithub.com%2Fopenimages%2Fdataset&amp;amp;sa=D&amp;amp;sntz=1&amp;amp;usg=AFQjCNFnSnHGWc1Xqv_E4QI4AHTZb9Hw_w&quot;&gt;Open Images&lt;/a&gt; [&lt;a href=&quot;https://sites.google.com/view/inclusiveimages/references&quot;&gt;2]&lt;/a&gt;, a large, multilabel, publicly-available image classification dataset that has been found to exhibit a geographical skew, and evaluate on InclusiveImages, an image classification dataset collected with explicit inclusion goals, designed as a stress-test of a model’s ability to generalize to images from geographical areas under-represented in the training data.&lt;/p&gt;
+
+  &lt;p&gt;In addition to the Open Images training set, competitors will have access to a large, open-source data set of textual information that may be useful in helping to provide additional information and context to aid a model’s ability to generalize to other geographical distributions.  Competitors will be instructed to assume a geographic shift between training and evaluation data, but will not have all the details of what the shift is, mimicking the real-world situation in which a model may be deployed in an environment that is markedly different than it was trained, as is often the case when localities differ from global distributions.&lt;/p&gt;
+
+  &lt;h4 id=&quot;how-to-address-location-representation&quot;&gt;How to Address Location Representation&lt;/h4&gt;
+
+  &lt;p&gt;Competitors should assume that locations that are over-represented at training may not have the same level of representation at test time, and that their models will explicitly be stress-tested for performance on images from some locations that are under-represented during training.  Competitors will be able to validate their submissions on a validation set which has this quality, and then will be tested on a final evaluation set which is exhibits this quality in a different way.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://sites.google.com/view/inclusiveimages/&quot;&gt;Challenge Website&lt;/a&gt; | &lt;a href=&quot;#inclusiveimages-table&quot;&gt;Back&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;h2 id=&quot;the-conversational-intelligence-challenge-2-convai2&quot;&gt;&lt;a name=&quot;convai2&quot;&gt;&lt;/a&gt;The Conversational Intelligence Challenge 2 (ConvAI2)&lt;/h2&gt;
+
+  &lt;p&gt;There are currently few datasets appropriate for training and evaluating models for non-goal-oriented dialogue systems (chatbots); and equally problematic, there is currently no standard procedure for evaluating such models beyond the classic Turing test.&lt;/p&gt;
+
+  &lt;p&gt;The aim of our competition is therefore to establish a concrete scenario for testing chatbots that aim to engage humans, and become a standard evaluation tool in order to make such systems directly comparable.&lt;/p&gt;
+
+  &lt;p&gt;This is the second Conversational Intelligence (ConvAI) Challenge. The previous one was conducted under the scope of NIPS 2017 Competitions track. This year we aim to improve over last year:&lt;/p&gt;
+
+  &lt;ul&gt;
+    &lt;li&gt;providing a dataset from the beginning, &lt;a href=&quot;http://convai.io/#personachat-convai2-dataset&quot;&gt;Persona-Chat&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;making the conversations more engaging for humans&lt;/li&gt;
+    &lt;li&gt;simpler evaluation process (automatic evaluation, followed then by human evaluation)&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://convai.io/&quot;&gt;Challenge Website&lt;/a&gt; | &lt;a href=&quot;#convai2-table&quot;&gt;Back&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;the-ai-driving-olympics-ai-do&quot;&gt;&lt;a name=&quot;aido&quot;&gt;&lt;/a&gt;The AI Driving Olympics (AI-DO)&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The Duckietown Foundation is excited to announce the official opening of the The AI Driving Olympics (AI-DO), a new competition focused around AI for self-driving cars.&lt;/p&gt;
+
+  &lt;p&gt;The first edition of the AI-DO  will take place in December 2018, at &lt;a href=&quot;https://nips.cc/Conferences/2018/CompetitionTrack&quot;&gt;NIPS&lt;/a&gt;, the premiere machine learning conference, in Montréal. This is the first competition that will take place at a machine learning conference with real robots.&lt;/p&gt;
+
+  &lt;p&gt;The second edition of AI-DO is already scheduled to take place in May 2019 in conjunction with the International Conference on Robotics and Automation (&lt;a href=&quot;http://www.icra2019.org/&quot;&gt;ICRA&lt;/a&gt;) 2019.&lt;/p&gt;
+
+  &lt;p&gt;The main purpose of the competition is &lt;strong&gt;to probe the frontier of the state of the art&lt;/strong&gt; in machine learning in the interactive and embodied setting.&lt;/p&gt;
+
+  &lt;p&gt;Recent progress in &lt;strong&gt;Deep Learning&lt;/strong&gt;, &lt;strong&gt;Machine Learning&lt;/strong&gt;, and &lt;strong&gt;Reinforcement Learning&lt;/strong&gt; has produced incredible results. This competition is designed to evaluate the real ability for these learning-based systems to control physical mobile robots.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.duckietown.org/research/AI-Driving-Olympics&quot;&gt;Challenge Website&lt;/a&gt; | &lt;a href=&quot;#aido-table&quot;&gt;Back&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;ai-for-prosthetics-challenge&quot;&gt;&lt;a name=&quot;prosthetics&quot;&gt;&lt;/a&gt;AI for Prosthetics challenge&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Welcome to &lt;strong&gt;AI for Prosthetics challenge&lt;/strong&gt;, one of the official challenges in the &lt;a href=&quot;https://nips.cc/Conferences/2018/CompetitionTrack&quot;&gt;NIPS 2018 Competition Track&lt;/a&gt;. In this competition, you are tasked with developing a controller to enable a physiologically-based human model with a prosthetic leg to walk and run. You are provided with a human musculoskeletal model, a physics-based simulation environment &lt;a href=&quot;http://opensim.stanford.edu/&quot;&gt;OpenSim&lt;/a&gt; where you can synthesize physically and physiologically accurate motion, and datasets of normal gait kinematics. You are scored based on how well your agent adapts to the requested velocity vector changing in real time.&lt;/p&gt;
+
+  &lt;p&gt;Our objectives are to:&lt;/p&gt;
+
+  &lt;ul&gt;
+    &lt;li&gt;bring Deep Reinforcement Learning to solve problems in medicine,&lt;/li&gt;
+    &lt;li&gt;promote open-source tools in RL research (the physics simulator &lt;a href=&quot;http://opensim.stanford.edu/&quot;&gt;OpenSim&lt;/a&gt;, the RL environment, and the competition platform are all open-source),&lt;/li&gt;
+    &lt;li&gt;encourage RL research in computationally complex environments, with stochasticity and highly-dimensional action spaces.&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.crowdai.org/challenges/nips-2018-ai-for-prosthetics-challenge&quot;&gt;Challenge Website&lt;/a&gt; | &lt;a href=&quot;#prosthetics-table&quot;&gt;Back&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;emocontext&quot;&gt;&lt;a name=&quot;emocontext&quot;&gt;&lt;/a&gt;EmoContext&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;When you read, ”Why don’t you ever text me”, does it conveys an angry emotion or sad emotion?&lt;/p&gt;
+
+  &lt;p&gt;Understanding Emotions in Textual Conversations is a hard problem in absence of voice modulations and facial expressions. Our shared task, “EmoContext” is designed to invite research in this area. Whether you are an expert in this field, or trying to learn the ropes of Natural Language Processing or Deep Learning, dive in and participate! The shared task is also designed to encourage young researchers to get started, so just &lt;a href=&quot;https://www.humanizing-ai.com/emocontext-organizers.html&quot;&gt;ask &lt;/a&gt;if you have a doubt, and we will help you out!&lt;/p&gt;
+
+  &lt;h4 id=&quot;task-description&quot;&gt;Task Description&lt;/h4&gt;
+
+  &lt;p&gt;In this task, you are given a textual dialogue i.e. a user utterance along with two turns of context, you have to classify the emotion of user utterance as one of the emotion classes: Happy, Sad, Angry or Others. &lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;Credits:&lt;/strong&gt; &lt;a href=&quot;https://www.linkedin.com/in/ankushchatterjee/&quot;&gt;Ankush Chatterjee&lt;/a&gt;, &lt;em&gt;Microsoft AI &amp;amp; Research, India&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.humanizing-ai.com/emocontext.html&quot;&gt;Challenge Website&lt;/a&gt; | &lt;a href=&quot;#emocontext-table&quot;&gt;Back&lt;/a&gt;&lt;/p&gt;
+
+&lt;div id=&quot;disqus_thread&quot;&gt;
+    &lt;button class=&quot;disqus-load&quot; onclick=&quot;loadDisqusComments()&quot;&gt;
+      Load Comments
+    &lt;/button&gt;
+  &lt;/div&gt;
+&lt;script&gt;
+
+  /**
+  *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW
+  *  TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+  *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT:s
+  *  https://disqus.com/admin/universalcode/#configuration-variables
+  */
+  var disqus_config = function () {
+    this.page.url = &quot;http://localhost:4000/2018/01/14/list-of-ML-competitions-2018.html&quot;;
+    this.page.identifier = &quot;&quot; ||
+                           &quot;http://localhost:4000/2018/01/14/list-of-ML-competitions-2018.html&quot;;
+  }
+  function loadDisqusComments() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = '//saqibns-github-io.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+  }
+  &lt;/script&gt;
+
+&lt;noscript&gt;
+    Please enable JavaScript to view the
+    &lt;a href=&quot;https://disqus.com/?ref_noscript&quot;&gt;comments powered by Disqus&lt;/a&gt;.
+  &lt;/noscript&gt;</content><author><name>Saqib Nizam Shamsi</name></author><category term="conferences" /><category term="competition" /><category term="list" /><summary type="html">Try your hands on Machine Learning challenges organized under the umbrella of various conferences.</summary></entry><entry><title type="html">Predicting Emotions of a Group</title><link href="http://localhost:4000/2017/12/30/predicting-emotions-of-a-group.html" rel="alternate" type="text/html" title="Predicting Emotions of a Group" /><published>2017-12-30T00:00:00+05:30</published><updated>2017-12-03T13:48:50+05:30</updated><id>http://localhost:4000/2017/12/30/predicting-emotions-of-a-group</id><content type="html" xml:base="http://localhost:4000/2017/12/30/predicting-emotions-of-a-group.html">&lt;p&gt;&lt;a href=&quot;https://sites.google.com/site/emotiwchallenge/&quot;&gt;Emotion Recognition In the Wild (EmotiW)&lt;/a&gt; is a competition organized under the umbrella of &lt;a href=&quot;https://icmi.acm.org/2017/&quot;&gt;International Conference on Multimodal Interaction (ICMI)&lt;/a&gt;. The competition is being organized since 2013. The  competition for the year 2017 consisted of two sub-challenges :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Group Level Emotion Recognition&lt;/li&gt;
+  &lt;li&gt;Audio-Video Emotion Recognition&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I participated in the former with &lt;a href=&quot;https://bhanu-mnit.github.io/&quot;&gt;Bhanu Pratap Singh Rawat&lt;/a&gt; and Manya Wadhwa. We were given a dataset which contained photographs of groups of people. The aim of the sub-challenge was to come up with a model that could classify the emotion the group as &lt;code class=&quot;highlighter-rouge&quot;&gt;Positive&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;Negative&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;Neural&lt;/code&gt;. This post describes our approach for the challenge.&lt;/p&gt;
+
+&lt;h2 id=&quot;dataset&quot;&gt;Dataset&lt;/h2&gt;
+
+&lt;p&gt;The dataset was divided into three parts: train, validation and test. Each part consisted of image files for each of our target categories: &lt;code class=&quot;highlighter-rouge&quot;&gt;Positive&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;Negative&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;Neutral&lt;/code&gt;. The distribution of images in the dataset is:&lt;/p&gt;
+
+&lt;table class=&quot;mbtablestyle&quot;&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Set&lt;/th&gt;
+      &lt;th&gt;Positive&lt;/th&gt;
+      &lt;th&gt;Neutral&lt;/th&gt;
+      &lt;th&gt;Negative&lt;/th&gt;
+      &lt;th&gt;Total&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;Train&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;1272&lt;/td&gt;
+      &lt;td&gt;1199&lt;/td&gt;
+      &lt;td&gt;1159&lt;/td&gt;
+      &lt;td&gt;3630&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;Validation&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;773&lt;/td&gt;
+      &lt;td&gt;728&lt;/td&gt;
+      &lt;td&gt;564&lt;/td&gt;
+      &lt;td&gt;2065&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;Test&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;311&lt;/td&gt;
+      &lt;td&gt;165&lt;/td&gt;
+      &lt;td&gt;296&lt;/td&gt;
+      &lt;td&gt;772&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;A sample of images from the dataset is given below:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/emotiw-17/group_snapshot.png&quot; alt=&quot;Sample Images in the EmotiW Dataset&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;method&quot;&gt;Method&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Summary:&lt;/strong&gt; We used ConvNets for our task with emotion heatmaps as features. If you wish to know the specifics of what emotion heatmaps are, read on!&lt;/p&gt;
+
+&lt;h3 id=&quot;emotion-of-individual-faces&quot;&gt;Emotion of Individual Faces&lt;/h3&gt;
+
+&lt;p&gt;The first step of our approach was to extract faces from each file and determine the emotion of each face. We extracted faces from the files using &lt;a href=&quot;http://dlib.net/&quot;&gt;Dlib&lt;/a&gt; and determined the emotion for each of the extracted faces. This was done using the pre-trained &lt;a href=&quot;https://www.openu.ac.il/home/hassner/projects/cnn_emotions/&quot;&gt;models&lt;/a&gt; by Gil Levi and Tal Hassner developed for EmotiW 2015 (we shall refer to them as &lt;em&gt;LHModels&lt;/em&gt; throughout the post). It is a set of five models which assign scores for seven standard emotions: Anger, Disgust, Fear, Happy, Neutral, Sad and Surprise. A single score for each face across the seven categories is obtained by averaging the five scores obtained for each category.&lt;/p&gt;
+
+&lt;h3 id=&quot;combination-of-values&quot;&gt;Combination of Values&lt;/h3&gt;
+
+&lt;p&gt;Once we obtained face wise emotions, a logical next step was to use the scores obtained for individual faces and somehow combine them to enable a learning algorithm to accurately determine the emotion of a group.&lt;/p&gt;
+
+&lt;p&gt;We averaged five vectors obtained for every face in the image. The emotion with the highest value was said to be the overall emotion of the group. We then trained a Random Forest Classifier (15 estimators) with the averaged seven-dimensional vector for each image.&lt;/p&gt;
+
+&lt;p&gt;For both of the cases above, if an image was labeled as one of Anger, Disgust, Fear, Sadness or Surprised the final label assigned to it was Negative, Neutral was assigned Neutral and Happy was assigned Positive. The performance for each of the approaches is summarized in a table later.&lt;/p&gt;
+
+&lt;p&gt;We then used the predictions of LHModels to generate heatmaps for our images. The first step was to convert the seven-dimensional vectors into three-dimensional vectors representing our three categories of interest, &lt;code class=&quot;highlighter-rouge&quot;&gt;Positive&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;Negative&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;Neutral&lt;/code&gt;. We did this by taking the average of Anger, Disgust, Fear, Sadness and Surprised designating it the label &lt;code class=&quot;highlighter-rouge&quot;&gt;Negative&lt;/code&gt;, Happy was given the label &lt;code class=&quot;highlighter-rouge&quot;&gt;Positive&lt;/code&gt;, and Neutral was assigned &lt;code class=&quot;highlighter-rouge&quot;&gt;Neutral&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;After this step, we had a set of three values for every face (one corresponding to each emotion). We used those to create three heatmaps, which, actually, are Gaussian interpolations of those values in a two-dimensional space.  The code snippet below creates a two-dimensional Gaussian kernel. The height and width of the kernel are same as that of the image in which the face was present. When interpolating, we observed that the values fell quickly as we went away from the center of the heatmap, since the distance increases rapidly. We used a value of 0.1 to make the values decrease gradually over distance (in other words, the effective distance from one pixel to the next was reduced to 1/10&lt;sup&gt;th&lt;/sup&gt; of its original value).&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;numpy&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;np&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;DISTANCE_SMOOTHING&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;0.1&lt;/span&gt;
+
+
+&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;make_gaussian&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;center&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;None&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;fwhm&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+    &lt;span class=&quot;s&quot;&gt;&quot;&quot;&quot; Make a square gaussian kernel.
+    fwhm is full-width-half-maximum, which
+    can be thought of as an effective radius.
+    &quot;&quot;&quot;&lt;/span&gt;
+
+    &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;np&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;arange&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;float&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;y&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;np&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;arange&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;float&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;shape&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    
+    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;center&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;is&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;None&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;x0&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;y0&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;size&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;//&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;x0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;y0&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;center&lt;/span&gt;
+    
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;np&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;exp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;np&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;DISTANCE_SMOOTHING&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;**&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;DISTANCE_SMOOTHING&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;y0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;**&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;fwhm&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;**&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;The kernel is then multiplied by the value of the emotion for that face. Let us take the face below as an example:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/emotiw-17/image_0_0.jpg&quot; alt=&quot;image_0_0&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The heatmaps (2D Gaussian distributions) for &lt;code class=&quot;highlighter-rouge&quot;&gt;Negative&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;Positive&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;Neutral&lt;/code&gt; emotion values for the above face are:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/emotiw-17/image_0_0.jpg_gaussian_neg-crop.png&quot; alt=&quot;image_0_0.jpg_gaussian_neg-crop&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/emotiw-17/image_0_0.jpg_gaussian_neu-crop.png&quot; alt=&quot;image_0_0.jpg_gaussian_neu-crop&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/emotiw-17/image_0_0.jpg_gaussian_pos-crop.png&quot; alt=&quot;image_0_0.jpg_gaussian_pos-crop&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;We, then used the individual heatmaps as channels of an RGB image, with distribution for &lt;code class=&quot;highlighter-rouge&quot;&gt;Negative&lt;/code&gt; emotion being the red channel and those of &lt;code class=&quot;highlighter-rouge&quot;&gt;Neutral&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;Positive&lt;/code&gt; forming the green and the blue channels respectively. For the face shown above, the final heatmap looks like the image below:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/emotiw-17/image_0_0.jpg_combined.png&quot; alt=&quot;image_0_0.jpg_combined&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;We carry out this process for every face in an image and finally add the RGB images tensor together, thus forming a single image.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/emotiw-17/image-process.jpg&quot; alt=&quot;image process&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;​The image above demonstrates the entire process of converting an image to a heatmap. The final heatmap was then resized and fed to Convolutional Neural Networks. Using this methodology, we achieved a classification accuracy of 56.47% on the validation set. The baseline was 52.79%.&lt;/p&gt;
+
+&lt;p&gt;A table summarizing the performance of the approaches is given below.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Model&lt;/th&gt;
+      &lt;th&gt;Training Accuracy&lt;/th&gt;
+      &lt;th&gt;Validation Accuracy&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Baseline&lt;/td&gt;
+      &lt;td&gt;-&lt;/td&gt;
+      &lt;td&gt;52.79%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Averaging&lt;/td&gt;
+      &lt;td&gt;44.37%&lt;/td&gt;
+      &lt;td&gt;42.38%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Random Forest&lt;/td&gt;
+      &lt;td&gt;99.08%&lt;/td&gt;
+      &lt;td&gt;48.13%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ConvNet on Heatmaps&lt;/td&gt;
+      &lt;td&gt;54.16%​&lt;/td&gt;
+      &lt;td&gt;56.47%&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Please refer to our &lt;a href=&quot;https://arxiv.org/abs/1710.01216&quot;&gt;paper&lt;/a&gt; for more details.&lt;/p&gt;
+
+&lt;div id=&quot;disqus_thread&quot;&gt;
+    &lt;button class=&quot;disqus-load&quot; onclick=&quot;loadDisqusComments()&quot;&gt;
+      Load Comments
+    &lt;/button&gt;
+  &lt;/div&gt;
+&lt;script&gt;
+
+  /**
+  *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW
+  *  TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+  *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT:s
+  *  https://disqus.com/admin/universalcode/#configuration-variables
+  */
+  var disqus_config = function () {
+    this.page.url = &quot;http://localhost:4000/2017/12/30/predicting-emotions-of-a-group.html&quot;;
+    this.page.identifier = &quot;&quot; ||
+                           &quot;http://localhost:4000/2017/12/30/predicting-emotions-of-a-group.html&quot;;
+  }
+  function loadDisqusComments() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = '//saqibns-github-io.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+  }
+  &lt;/script&gt;
+
+&lt;noscript&gt;
+    Please enable JavaScript to view the
+    &lt;a href=&quot;https://disqus.com/?ref_noscript&quot;&gt;comments powered by Disqus&lt;/a&gt;.
+  &lt;/noscript&gt;</content><author><name>Saqib Nizam Shamsi</name></author><category term="vision" /><category term="emotion detection" /><category term="competition" /><summary type="html">Emotion Recognition In the Wild is a competition organized under the umbrella of ICMI. This post describes our approach for the 2017 challenge.</summary></entry></feed>

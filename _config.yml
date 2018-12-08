@@ -1,0 +1,70 @@
+# Dependencies
+markdown:         kramdown
+highlighter:      rouge
+
+# More › http://kramdown.gettalong.org/quickref.html
+# Options › http://kramdown.gettalong.org/options.html
+kramdown:
+  input:          GFM
+  # https://github.com/jekyll/jekyll/pull/4090
+  syntax_highlighter: rouge
+
+  # Rouge Highlighter in Kramdown › http://kramdown.gettalong.org/syntax_highlighter/rouge.html
+  # span, block element options fall back to global
+  syntax_highlighter_opts:
+    # Rouge Options › https://github.com/jneen/rouge#full-options
+    css_class: 'highlight'
+    #line_numbers: true # bad idea, spans don't need linenos and would inherit this option
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
+
+# Setup
+title:            Saqib's Blog
+tagline:          'Home'
+description:      'Trying to get better at things, little by little'
+url:              https://saqibns.github.io/
+baseurl:          # the optional subpath of your site, e.g. "/blog"
+                  # NB: This applies to all pages in your Jekyll site.
+                  # If you want to move just the blog index pages but keep
+                  # other pages at root, see the paginate_path and
+                  # sidebar_blog_link below.
+
+author:
+  name:           'Saqib Nizam Shamsi'
+  url:            https://twitter.com/saqibns
+
+paginate:         5
+# paginate_path:    '/page:num'
+                    # Or '/blog/page:num' if you want to move your index pages
+
+plugins:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
+  - jemoji
+
+# Custom vars
+sidebar_home_link:  true
+# sidebar_blog_link:  '/blog'   # By default, your home page is your blog
+                                # page. If you change your paginate_path,
+                                # set this to the root of the paginate_path
+                                # to enable a separate blog link.
+github:
+  repo:             https://github.com/saqibns
+
+twitter:
+  handle:             https://twitter.com/saqibns
+
+linkedin:
+  profile:             https://www.linkedin.com/in/snshamsi/
+
+email:
+  address:             mailto:shamsi.saqib@gmail.com
+
+disqus:
+  shortname:             saqibns-github-io
+
+google_analytics:     UA-111751077-1

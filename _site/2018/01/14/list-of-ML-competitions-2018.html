@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+
+  <title>
+    
+      A List of Machine Learning Challenges in 2018 &middot; Saqib's Blog
+    
+  </title>
+
+  
+
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/assets/css/main.css" />
+  
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface" />
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/site/favicon.png" />
+<link rel="shortcut icon" href="/assets/site/favicon.ico" />
+
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml" />
+
+  <!-- Additional head bits without overriding original head -->
+</head>
+
+
+  <body class="post">
+
+    <div id="sidebar">
+  <header>
+    <div class="site-title">
+      <a href="/">
+        
+          <span class="back-arrow icon"><svg fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+  <path d="M0 0h24v24H0z" fill="none"/>
+  <path d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"/>
+</svg></span>
+        
+        Saqib's Blog
+      </a>
+    </div>
+    <p class="lead">Trying to get better at things, little by little</p>
+  </header>
+  
+  <nav id="sidebar-nav-links">
+  
+    <a class="home-link "
+        href="/">Home</a>
+  
+  
+
+  
+
+  
+
+
+  
+    
+  
+
+  
+    
+      <a class="page-link "
+          href="/about.html">About</a>
+    
+  
+
+  
+    
+  
+
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+
+
+  
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+
+
+  <!-- Optional additional links to insert in sidebar nav -->
+<a class="page-link" href="/resume.pdf">Resume</a>
+
+</nav>
+
+
+  
+
+  <nav id="sidebar-icon-links">
+  
+    <a id="github-link"
+       class="icon" title="GitHub" aria-label="GitHub"
+       href="https://github.com/saqibns">
+      <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 28"><path d="M12 2c6.625 0 12 5.375 12 12 0 5.297-3.437 9.797-8.203 11.391-0.609 0.109-0.828-0.266-0.828-0.578 0-0.391 0.016-1.687 0.016-3.297 0-1.125-0.375-1.844-0.812-2.219 2.672-0.297 5.484-1.313 5.484-5.922 0-1.313-0.469-2.375-1.234-3.219 0.125-0.313 0.531-1.531-0.125-3.187-1-0.313-3.297 1.234-3.297 1.234-0.953-0.266-1.984-0.406-3-0.406s-2.047 0.141-3 0.406c0 0-2.297-1.547-3.297-1.234-0.656 1.656-0.25 2.875-0.125 3.187-0.766 0.844-1.234 1.906-1.234 3.219 0 4.594 2.797 5.625 5.469 5.922-0.344 0.313-0.656 0.844-0.766 1.609-0.688 0.313-2.438 0.844-3.484-1-0.656-1.141-1.844-1.234-1.844-1.234-1.172-0.016-0.078 0.734-0.078 0.734 0.781 0.359 1.328 1.75 1.328 1.75 0.703 2.141 4.047 1.422 4.047 1.422 0 1 0.016 1.937 0.016 2.234 0 0.313-0.219 0.688-0.828 0.578-4.766-1.594-8.203-6.094-8.203-11.391 0-6.625 5.375-12 12-12zM4.547 19.234c0.031-0.063-0.016-0.141-0.109-0.187-0.094-0.031-0.172-0.016-0.203 0.031-0.031 0.063 0.016 0.141 0.109 0.187 0.078 0.047 0.172 0.031 0.203-0.031zM5.031 19.766c0.063-0.047 0.047-0.156-0.031-0.25-0.078-0.078-0.187-0.109-0.25-0.047-0.063 0.047-0.047 0.156 0.031 0.25 0.078 0.078 0.187 0.109 0.25 0.047zM5.5 20.469c0.078-0.063 0.078-0.187 0-0.297-0.063-0.109-0.187-0.156-0.266-0.094-0.078 0.047-0.078 0.172 0 0.281s0.203 0.156 0.266 0.109zM6.156 21.125c0.063-0.063 0.031-0.203-0.063-0.297-0.109-0.109-0.25-0.125-0.313-0.047-0.078 0.063-0.047 0.203 0.063 0.297 0.109 0.109 0.25 0.125 0.313 0.047zM7.047 21.516c0.031-0.094-0.063-0.203-0.203-0.25-0.125-0.031-0.266 0.016-0.297 0.109s0.063 0.203 0.203 0.234c0.125 0.047 0.266 0 0.297-0.094zM8.031 21.594c0-0.109-0.125-0.187-0.266-0.172-0.141 0-0.25 0.078-0.25 0.172 0 0.109 0.109 0.187 0.266 0.172 0.141 0 0.25-0.078 0.25-0.172zM8.937 21.438c-0.016-0.094-0.141-0.156-0.281-0.141-0.141 0.031-0.234 0.125-0.219 0.234 0.016 0.094 0.141 0.156 0.281 0.125s0.234-0.125 0.219-0.219z"></path>
+</svg>
+
+    </a>
+  
+
+  
+    <a id="github-link"
+       class="icon" title="Email" aria-label="Email"
+       href="mailto:shamsi.saqib@gmail.com">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 12.713l-11.985-9.713h23.97l-11.985 9.713zm0 2.574l-12-9.725v15.438h24v-15.438l-12 9.725z"/></svg>
+    </a>
+  
+
+  
+	<a id="twitter-link"
+       class="icon" title="Twitter" aria-label="Twitter"
+       href="https://twitter.com/saqibns">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/></svg>
+    </a>
+  
+
+  
+	<a id="linkedin-link"
+       class="icon" title="LinkedIn" aria-label="LinkedIn"
+       href="https://www.linkedin.com/in/snshamsi/">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z"/></svg>
+    </a>
+  
+  
+  
+  
+
+  
+    <a id="tags-link"
+       class="icon"
+       title="Tags" aria-label="Tags"
+       href="/tags.html">
+      <svg fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0 0h24v24H0z" fill="none"/>
+    <path d="M17.63 5.84C17.27 5.33 16.67 5 16 5L5 5.01C3.9 5.01 3 5.9 3 7v10c0 1.1.9 1.99 2 1.99L16 19c.67 0 1.27-.33 1.63-.84L22 12l-4.37-6.16z"/>
+</svg>
+    </a>
+  
+
+  
+    <a id="search-link"
+       class="icon"
+       title="Search" aria-label="Search"
+       href="/search.html">
+      <svg fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/>
+    <path d="M0 0h24v24H0z" fill="none"/>
+</svg>
+    </a>
+  
+
+  <!-- Optional additional links to insert for icons links -->
+</nav>
+
+  <p>
+  &copy; Saqib Nizam Shamsi. 2018.
+  Powered by <a href="http://jekyllrb.com" target="_blank">Jekyll</a>, <a href="https://fongandrew.github.io/hydeout/" target="_blank">Hydeout</a> and <a href="https://pages.github.com/" target="_blank">GitHub Pages </a>
+</p>
+
+</div>
+
+
+    <main class="container">
+      <header>
+  <h1 class="post-title">A List of Machine Learning Challenges in 2018</h1>
+</header>
+<div class="content">
+  <div class="post-meta">
+  <span class="post-date">14 Jan 2018</span>
+  <span class="post-categories">
+    
+  </span>
+</div>
+
+  <div class="post-body">
+    <p>Competitions are a great way to excel in machine learning. They offer various advantages in addtion to gaining knowledge and developing your skillset.</p>
+
+<p>The problems and goals are very welll defined. This saves you from the hassle of coming up with a problem, defining the goals rigorously, which are both achievable and non-trivial. You are also provided with data, which in most cases is ready for use. Someone has already done the painstaking work of collecting, preprocessing and organizing data. If it’s a competition on supervised learning, you also get labels for the data.</p>
+
+<p>If you’re a procrastinator, you have deadlines to your rescue. They keep you focused and prevent you from going astray ;)</p>
+
+<p>Competition leaderboards (if the competition has one), push you to do better. They keep things in perspective by giving continuous feedback on how you’re doing relative to others. You struggle to find better solutions, try to surpass yourself, and in the process keep growing.</p>
+
+<p>Finally, the rewards. They come in various forms. Monetary rewards are one. The satisfaction of solving a challenging problems and growing is another. But the main motivation for writing this post is the third kind of reward. If you’re a top performer in a competition organized under a conference, you get a chance to publish your results.</p>
+
+<p>I was looking for a curated list of such competitions but couldn’t find any. So, decided to make one. The table below summarizes all the competitons I could find. They have been ordered according to their deadlines. I plan on updating the list on a regular basis. As more conferences release information about the competitions on their website, I’ll add them to the list.</p>
+
+<p>If you know of any competition that is not on the list, please let me know in the comments or feel free to send a pull request.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Conference</th>
+      <th>Starts</th>
+      <th>Ends</th>
+      <th>Website</th>
+      <th>Sub-<br />Challenges</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><del><a name="microrobotics-table"></a><a href="#microrobotics">Mobile Microrobotics Challenge</a></del></td>
+      <td><del><a href="http://icra2018.org/">ICRA</a></del></td>
+      <td><del>15th December, ‘17</del></td>
+      <td><del>16th February</del></td>
+      <td><del><a href="http://icra2018.org/mobile-microrobotics-challenge-2018/">Link</a></del></td>
+      <td><del>03</del></td>
+    </tr>
+    <tr>
+      <td><del><a name="disguisedfaces-table"></a><a href="#disguisedfaces-cvpr">Disguised Faces Workshop Challenge</a></del></td>
+      <td><del><a href="http://cvpr2018.thecvf.com/program/workshops">CVPR</a></del></td>
+      <td><del>20th January</del></td>
+      <td><del>20th February</del></td>
+      <td><del><a href="http://iab-rubric.org/DFW/Competition.html">Link</a></del></td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><del><a name="ntire-cvpr-table"></a><a href="#ntire-cvpr">New Trends in Image Restoration and Enhancement (NTIRE) Challenge</a></del></td>
+      <td><del><a href="http://cvpr2018.thecvf.com/program/workshops">CVPR</a></del></td>
+      <td><del>10th January</del></td>
+      <td><del>27th February</del></td>
+      <td><del><a href="http://www.vision.ee.ethz.ch/en/ntire18/">Link</a></del></td>
+      <td><del>03</del></td>
+    </tr>
+    <tr>
+      <td><del><a name="interspeech-table"></a><a href="#interspeech">Interspeech Computational Paralinguistics ChallengE (ComParE)</a></del></td>
+      <td><del><a href="http://interspeech2018.org/">Interspeech</a></del></td>
+      <td>-</td>
+      <td><del>16th March 2018</del></td>
+      <td><del><a href="http://emotion-research.net/workshops_folder/workshop.2018-02-12.9681548687">Link</a></del></td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><del><a name="aicity-table"></a><a href="#aicity">Nvidia AI City Challenge</a></del></td>
+      <td><del><a href="http://cvpr2018.thecvf.com/program/workshops">CVPR</a></del></td>
+      <td><del>10th December, ‘17</del></td>
+      <td><del>31st March</del></td>
+      <td><del><a href="https://www.aicitychallenge.org/">Link</a></del></td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><del><a name="ug2-table"></a><a href="#ug2">UG<sup>2</sup> Prize Challenge</a></del></td>
+      <td><del><a href="http://cvpr2018.thecvf.com/program/workshops">CVPR</a></del></td>
+      <td><del>15th January</del></td>
+      <td><del>2nd April</del></td>
+      <td><del><a href="http://www.ug2challenge.org/">Link</a></del></td>
+      <td><del>02</del></td>
+    </tr>
+    <tr>
+      <td><a name="djirobomaster-table"></a><a href="#djirobomaster">DJI RoboMaster AI Challenge</a></td>
+      <td><a href="http://icra2018.org/">ICRA</a></td>
+      <td>1st January</td>
+      <td>10th April</td>
+      <td><a href="http://icra2018.org/dji-robomaster-ai-challenge/">Link</a></td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><a name="clic-table"></a><a href="#clic">Challenge on Learned Image Compression (CLIC)</a></td>
+      <td><a href="http://cvpr2018.thecvf.com/program/workshops">CVPR</a></td>
+      <td>24th December, ‘17</td>
+      <td>22nd April</td>
+      <td><a href="http://www.compression.cc/challenge/">Link</a></td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><a name="landmark-table"></a><a href="#landmark">Large-Scale Landmark Recognition</a></td>
+      <td><a href="http://cvpr2018.thecvf.com/program/workshops">CVPR</a></td>
+      <td>1st January</td>
+      <td>1st May</td>
+      <td><a href="https://landmarkscvprw18.github.io/">Link</a></td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><a name="robust-vision-table"></a><a href="#robust-vision">Robust Vision Challenge</a></td>
+      <td><a href="http://cvpr2018.thecvf.com/program/workshops">CVPR</a></td>
+      <td>1st February</td>
+      <td>15th May</td>
+      <td><a href="http://www.robustvision.net/">Link</a></td>
+      <td>06</td>
+    </tr>
+    <tr>
+      <td><a name="eat-table"></a><a href="#eat">ICMI 2018 EAT</a></td>
+      <td><a href="https://icmi.acm.org/2018/index.php?id=challenges">ICMI</a></td>
+      <td>4th April</td>
+      <td>29th May</td>
+      <td><a href="https://icmi-eat.ihearu-play.eu/">Link</a></td>
+      <td>03</td>
+    </tr>
+    <tr>
+      <td><a name="kddcup-table"></a><a href="#kddcup">KDD Cup</a></td>
+      <td><a href="http://www.kdd.org/kdd2018/">KDD</a></td>
+      <td>15th March</td>
+      <td>31st May</td>
+      <td><a href="https://biendata.com/competition/kdd_2018/">Link</a></td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><a name="lip-table"></a><a href="#lip">The Look Into Person (LIP) Challenge</a></td>
+      <td><a href="http://cvpr2018.thecvf.com/program/workshops">CVPR</a></td>
+      <td>-</td>
+      <td>4th June</td>
+      <td><a href="https://vuhcs.github.io/">Link</a></td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><a name="lowpowerir-table"></a><a href="#lowpowerir">Low-Power Image Recognition Challenge</a></td>
+      <td><a href="http://cvpr2018.thecvf.com/program/workshops">CVPR</a></td>
+      <td>-</td>
+      <td>18 June (Onsite)</td>
+      <td><a href="https://rebootingcomputing.ieee.org/lpirc">Link</a></td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><a name="davis-table"></a><a href="#davis">DAVIS Challenge on Video Object Segmentation</a></td>
+      <td><a href="http://cvpr2018.thecvf.com/program/workshops">CVPR</a></td>
+      <td>1st April</td>
+      <td>30th June</td>
+      <td><a href="http://davischallenge.org/challenge2018/">Link</a></td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td><a name="hearthstone-table"></a><a href="#hearthstone">Hearthstone AI Competition</a></td>
+      <td><a href="http://www.ieee-cig.org/">CIG</a></td>
+      <td>-</td>
+      <td>15th July</td>
+      <td><a href="https://dockhorn.antares.uberspace.de/wordpress/">Link</a></td>
+      <td>02</td>
+    </tr>
+    <tr>
+      <td><a name="activitynet-table"></a><a href="#activitynet">ActivityNet Large-Scale Activity Recognition Challenge</a></td>
+      <td><a href="http://cvpr2018.thecvf.com/program/workshops">CVPR</a></td>
+      <td>7th December, ‘17</td>
+      <td>TBA</td>
+      <td><a href="http://activity-net.org/challenges/2018/index.html">Link</a></td>
+      <td>07</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="disguised-faces-workshop-challenge"><a name="disguisedfaces-cvpr"></a>Disguised Faces Workshop Challenge</h2>
+
+<blockquote>
+  <p>With recent advancements in deep learning, the capabilities of automatic face recognition have been significantly increased. However, face recognition in an unconstrained environment with non-cooperative users is still a research challenge, pertinent for users such as law enforcement agencies. While several covariates such as pose, expression, illumination, aging, and low resolution have received significant attention, “disguise” is still considered an arduous covariate of face recognition.</p>
+</blockquote>
+
+<p><a href="http://iab-rubric.org/DFW/Competition.html">Challenge Website</a> | <a href="#disguisedfaces-table">Back</a></p>
+
+<h2 id="new-trends-in-image-restoration-and-enhancement-ntire-challenge"><a name="ntire-cvpr"></a>New Trends in Image Restoration and Enhancement (NTIRE) Challenge</h2>
+
+<blockquote>
+  <p><strong>NTIRE 2018 challenge on image super-resolution</strong>
+In order to gauge the current state-of-the-art in (example-based) single-image super-resolution under realistic conditions, to compare and to promote different solutions we are organizing an NTIRE challenge in conjunction with the CVPR 2018 conference.</p>
+
+  <p><strong>The challenge has 3 tracks:</strong></p>
+
+  <p><strong>Track 1:</strong> classic bicubic  uses the bicubic downscaling (Matlab imresize), the most common setting from the recent single-image super-resolution literature.
+<strong>Track 2:</strong> realistic mild adverse conditions  assumes that the degradation operators (emulating the image acquisition process from a digital camera) can be estimated through training pairs of low and high-resolution images. The degradation operators are the same within an image space and for all the images.
+<strong>Track 3:</strong> realistic difficult adverse conditions  assumes that the degradation operators (emulating the image acquisition process from a digital camera) can be estimated through training pairs of low and high-resolution images. The degradation operators are the same within an image space and for all the images.
+<strong>Track 4:</strong> realistic wild conditions assumes that the degradation operators (emulating the image acquisition process from a digital camera) can be estimated through training pairs of low and high images. The degradation operators are the same within an image space but DIFFERENT from one image to another. This setting is the closest to real “wild” conditions.</p>
+
+  <p><strong>NTIRE 2018 challenge on image dehazing</strong> 
+In order to gauge the current state-of-the-art in image dehazing for real haze as well as synthesized haze, to compare and to promote different solutions we are organizing an NTIRE challenge in conjunction with the CVPR 2018 conference. A novel dataset of real and synthesized hazy images with ground truth will be introduced with the challenge. It is the first image dehazing online challenge.</p>
+
+  <p><strong>The challenge has 3 tracks:</strong></p>
+
+  <p><strong>Track 1:</strong> realistic haze uses synthesized hazy images, a common setting from the recent image dehazing literature.
+<strong>Track 2:</strong> real haze with ground truth
+<strong>Track 3:</strong> real haze with color reference</p>
+
+  <p><strong>NTIRE 2018 challenge on spectral reconstruction from RGB images</strong>
+In order to gauge the current state-of-the-art in spectral reconstruction from RGB images, to compare and to promote different solutions we are organizing an NTIRE challenge in conjunction with the CVPR 2018 conference. The largest dataset to date will be introduced with the challenge. It is the first spectral reconstruction from RGB images online challenge.</p>
+
+  <p><strong>The challenge has 2 tracks:</strong></p>
+
+  <p><strong>Track 1:</strong> “Clean”  recovering hyperspectral data from uncompressed 8-bit RGB images created by applying a know response function to ground truth hyperspectral information.
+<strong>Track 2:</strong> “Real World”  recovering hyperspectral data from jpg-compressed 8-bit RGB images created by applying an unknown response function to ground truth hyperspectral information.</p>
+
+</blockquote>
+
+<p><a href="http://www.vision.ee.ethz.ch/en/ntire18/">Challenge Website</a> | <a href="#ntire-cvpr-table">Back</a></p>
+
+<h2 id="ug2-prize-challenge"><a name="ug2"></a>UG<sup>2</sup> Prize Challenge</h2>
+
+<blockquote>
+  <p>What is the current state-of-the art for image restoration and enhancement applied to images acquired under less than ideal circumstances?</p>
+
+  <p>Can the application of enhancement algorithms as a pre-processing step improve image interpretability for manual analysis or automatic visual recognition to classify scene content?</p>
+
+  <p>The UG<sup>2</sup> Challenge seeks to answer these important questions for general applications related to computational photography and scene understanding. As a well-defined case study, the challenge aims to advance the analysis of images collected by small UAVs by improving image restoration and enhancement algorithm performance using the UG<sup>2</sup> Dataset.</p>
+</blockquote>
+
+<p><a href="http://www.ug2challenge.org/">Challenge Website</a> | <a href="#ug2-table">Back</a></p>
+
+<h2 id="challenge-on-learned-image-compression-clic"><a name="clic"></a>Challenge on Learned Image Compression (CLIC)</h2>
+
+<blockquote>
+  <p>Recent advances in machine learning have led to an increased interest in applying neural networks to the problem of compression.
+We propose hosting an image-compression challenge which specifically targets methods which have been traditionally overlooked, with a focus on neural networks (but also welcomes traditional approaches). Such methods typically consist of an encoder subsystem, taking images and producing representations which are more easily compressed than the pixel representation (e.g., it could be a stack of convolutions, producing an integer feature map), which is then followed by an arithmetic coder. The arithmetic coder uses a probabilistic model of integer codes in order to generate a compressed bit stream. The compressed bit stream makes up the file to be stored or transmitted. In order to decompress this bit stream, two additional steps are needed: first, an arithmetic decoder, which has a shared probability model with the encoder. This reconstructs (losslessly) the integers produced by the encoder. The last step consists of another decoder producing a reconstruction of the original image.</p>
+</blockquote>
+
+<p><a href="http://www.compression.cc/challenge/">Challenge Website</a> | <a href="#clic-table">Back</a></p>
+
+<h2 id="large-scale-landmark-recognition"><a name="landmark"></a>Large-Scale Landmark Recognition</h2>
+
+<blockquote>
+  <p>This workshop is to foster research on image retrieval and landmark recognition by introducing a novel large-scale dataset, together with evaluation protocols. More details will be available soon.</p>
+</blockquote>
+
+<p><a href="https://landmarkscvprw18.github.io/">Challenge Website</a> | <a href="#landmark-table">Back</a></p>
+
+<h2 id="robust-vision-challenge"><a name="robust-vision"></a>Robust Vision Challenge</h2>
+
+<blockquote>
+  <p>The increasing availability of large annotated datasets such as Middlebury, PASCAL VOC, ImageNet, MS COCO, KITTI and Cityscapes has lead to tremendous progress in computer vision and machine learning over the last decade. Public leaderboards make it easy to track the state-of-the-art in the field by comparing the results of dozens of methods side-by-side. While steady progress is made on each individual dataset, many of them are limited to specific domains. KITTI, for example, focuses on real-world urban driving scenarios, while Middlebury considers indoor scenes and VIPER provides synthetic imagery in various weather conditions. Consequently, methods that are state-of-the-art on one dataset often perform worse on a different one or require substantial adaptation of the model parameters.</p>
+
+  <p>The goal of this workshop is to foster the development of vision systems that are robust and consequently perform well on a variety of datasets with different characteristics. Towards this goal, we propose the Robust Vision Challenge, where performance on several tasks (eg, reconstruction, optical flow, semantic/instance segmentation, single image depth prediction) is measured across a number of challenging benchmarks with different characteristics, e.g., indoors vs. outdoors, real vs. synthetic, sunny vs. bad weather, different sensors. We encourage submissions of novel algorithms, techniques which are currently in review and methods that have already been published.</p>
+</blockquote>
+
+<p><a href="http://www.robustvision.net/">Challenge Website</a> | <a href="#robust-vision-table">Back</a></p>
+
+<h2 id="activitynet-large-scale-activity-recognition-challenge"><a name="activitynet"></a>ActivityNet Large-Scale Activity Recognition Challenge</h2>
+
+<blockquote>
+  <p>This challenge is the 3rd annual installment of the ActivityNet Large-Scale Activity Recognition Challenge, which was first hosted during CVPR 2016. It focuses on the recognition of daily life, high-level, goal-oriented activities from user-generated videos as those found in internet video portals.</p>
+
+  <p>We are proud to announce that this year the challenge will hosts seven diverse tasks which aim to push the limits of semantic visual understanding of videos as well as bridging visual content with human captions. Three out of the seven tasks in the challenge are based on the <a href="http://activity-net.org/">ActivityNet dataset</a>, which was introduced in CVPR 2015 and organized hierarchically in a semantic taxonomy. These tasks focus on trace evidence of activities in time in the form of actionness/proposals, class labels, and <a href="http://cs.stanford.edu/people/ranjaykrishna/densevid/">captions</a>.</p>
+</blockquote>
+
+<p><a href="http://activity-net.org/challenges/2018/index.html">Challenge Website</a> | <a href="#activitynet-table">Back</a></p>
+
+<h2 id="kdd-cup"><a name="kddcup"></a>KDD Cup</h2>
+
+<blockquote>
+  <p>SIGKDD-2018 will take place in London, UK in August 2018. The KDD Cup competition is anticipated to last for 2-4 months, and the winners will be notified by mid-June. The winners will be honored at the KDD conference opening ceremony and will present their solutions at the KDD Cup workshop during the conference. The winners are expected to be monetarily rewarded, with the first prize being in the ballpark of ten thousand dollars.</p>
+</blockquote>
+
+<p><a href="https://biendata.com/competition/kdd_2018/">Challenge Website</a> | <a href="#kddcup-table">Back</a></p>
+
+<h2 id="dji-robomaster-ai-challenge"><a name="djirobomaster"></a>DJI RoboMaster AI Challenge</h2>
+
+<blockquote>
+  <p>DJI started RoboMaster in 2015 as an educational robotics competition for talented engineers and scientists. The annual RoboMaster competition requires teams to build robots that use shooting mechanisms to battle with other robots. The performances of the robots are monitored by a specially designed referee system, converting projectile hits into health point deductions on hit robots. To visit past games and introductory videos visit <a href="https://www.twitch.tv/robomaster">https://www.twitch.tv/robomaster</a>. To see the RoboMaster2018 promotional video, go to: <a href="https://youtu.be/uI2uoV58pzQ">https://youtu.be/uI2uoV58pzQ</a></p>
+
+  <p>Each team will build 1 – 2 automatic AI robots. Robots will compete in a 5m x 8m arena, filled with various obstacles. Participants will design robots that autonomously shoot plastic projectiles. The objective is outcompeting advanced official DJI robots in a battle of the wits.</p>
+</blockquote>
+
+<p><a href="http://icra2018.org/dji-robomaster-ai-challenge/">Challenge Website</a> | <a href="#djirobomaster-table">Back</a></p>
+
+<h2 id="mobile-microrobotics-challenge"><a name="microrobotics"></a>Mobile Microrobotics Challenge</h2>
+
+<blockquote>
+  <p>The IEEE Robotics &amp; Automations Society (RAS) Micro/Nano Robotics &amp; Automation Technical Committee (MNRA) invites applicants to participate in the 2018 Mobile Microrobotics Challenge (MMC), in which microrobots on the order of the diameter of a human hair face off in tests of autonomy, accuracy, and assembly.</p>
+
+  <p>Teams can participate in up to three events:</p>
+
+  <ol>
+    <li>Autonomous Manipulation &amp; Accuracy Challenge: Microrobots must autonomously manipulate micro-components around fixed obstacles to a desired position and orientation superimposed on the substrate.  The objective is to manipulate the objects as precisely as possible to their goal locations and orientations in the shortest amount of time.</li>
+    <li>Microassembly Challenge:  Microrobots must assemble multiple microscale components inside a narrow channel in a fixed amount of time. This task simulates anticipated applications of microassembly, including manipulation within a human blood vessel and the assembly of components in nanomanufacturing.</li>
+    <li>MMC Showcase &amp; Poster Session: Each team has an opportunity to showcase and demonstrate any advanced capabilities and/or functionality of their microrobot system. Each participating team will get one vote to determine the Best in Show winner.</li>
+  </ol>
+</blockquote>
+
+<p><a href="http://icra2018.org/mobile-microrobotics-challenge-2018/">Challenge Website</a> | <a href="#microrobotics-table">Back</a></p>
+
+<h2 id="interspeech-computational-paralinguistics-challenge-compare"><a name="interspeech"></a>Interspeech Computational Paralinguistics ChallengE (ComParE)</h2>
+
+<blockquote>
+  <p>The <strong>Interspeech Computational Paralinguistics ChallengE (ComParE)</strong> series is an open Challenge in the field of Computational Paralinguistics dealing with states and traits of speakers as manifested in their speech signal’s properties. The Challenges takes annually place at INTERSPEECH since 2009. Every year, we introduce new tasks as there still exists a multiplicity of not yet covered, but highly relevant paralinguistic phenomena. The Challenge addresses the Audio, Speech, and Signal Processing, Natural Language Processing, Artificial Intelligence, Machine Learning, Affective &amp; Behavioural Computing, Human-Computer/Robot-Interaction, mHealth, Psychology, and Medicine communities, and any other interested participants.</p>
+</blockquote>
+
+<p><a href="http://compare.openaudio.eu/">Challenge Website</a> | <a href="#interspeech-table">Back</a></p>
+
+<h2 id="nvidia-ai-city-challenge"><a name="aicity"></a>Nvidia AI City Challenge</h2>
+
+<blockquote>
+  <p>There will be 1 billion cameras by 2020. Transportation is one of the largest segments that can benefit from actionable insights derived from data captured by these cameras. Between traffic, signaling systems, transportation systems, infrastructure, and transit, the opportunity for insights from these cameras to make transportation systems safer and smarter is immense. Unfortunately, there are several reasons why these potential benefits have not yet materialized for this vertical. Poor data quality, the lack of labels for the data, and the lack of high quality models that can convert the data into actionable insights are some of the biggest impediments to unlocking the value of the data. There is also need for platforms that allow for appropriate analysis from edge to cloud, which will accelerate the development and deployment of these models. The NVIDIA AI City Challenge Workshop at CVPR 2018 will specifically focus on ITS problems such as</p>
+
+  <ul>
+    <li>Estimating traffic flow and volume</li>
+    <li>Leveraging unsupervised approaches to detect anomalies such as lane violation, illegal U-turns, wrong-direction driving. This is the only way to get the humans in the loop pay attention to meaningful visual information</li>
+    <li>Multi-camera tracking, and object re-identification in urban environments.</li>
+  </ul>
+</blockquote>
+
+<p><a href="https://www.aicitychallenge.org/">Challenge Website</a> | <a href="#aicity-table">Back</a></p>
+
+<h2 id="low-power-image-recognition-challenge"><a name="lowpowerir"></a>Low-Power Image Recognition Challenge</h2>
+
+<blockquote>
+  <p>Detect all relevant objects in as many images as possible of a common test set from the ImageNet object detection data set within 10 minutes.</p>
+</blockquote>
+
+<p><a href="https://rebootingcomputing.ieee.org/lpirc">Challenge Website (Old)</a> | <a href="#lowpowerir-table">Back</a></p>
+
+<h2 id="the-look-into-person-lip-challenge"><a name="lip"></a>The Look Into Person (LIP) Challenge</h2>
+
+<blockquote>
+  <p>Developing solutions to comprehensive human visual understanding in the wild scenarios, regarded as one of the most fundamental problems in compute vision, could have a crucial impact in many industrial application domains, such as autonomous driving, virtual reality, video surveillance, human-computer interaction and human behavior analysis. For example, human parsing and pose estimation are often regarded as the very first step for higher-level activity/event recognition and detection. Nonetheless, a large gap seems to exist between what is needed by the real-life applications and what is achievable based on modern computer vision techniques. The goal of this workshop is to allow researchers from the fields of human visual understanding and other disciplines to present their progress, communication and co-develop novel ideas that potentially shape the future of this area and further advance the performance and applicability of correspondingly built systems in real-world conditions.</p>
+
+  <p>To stimulate the progress on this research topic and attract more talents to work on this topic, we will also provide a first standard human parsing and pose benchmark on a new large-scale Look Into Person (LIP) dataset. This dataset is both larger and more challenging than similar previous ones in the sense that the new dataset contains 50,000 images with elaborated pixel-wise annotations with comprehensive 19 semantic human part labels and 2D human poses with 16 dense key points. The images collected from the real-world scenarios contain humans appearing with challenging poses and views, heavily occlusions, various appearances and low-resolutions. Details on the annotated classes and examples of our annotations are available at this link <a href="http://hcp.sysu.edu.cn/lip/">http://hcp.sysu.edu.cn/lip/</a>.</p>
+</blockquote>
+
+<p><a href="https://vuhcs.github.io/">Challenge Website</a> | <a href="#lip-table">Back</a></p>
+
+<h2 id="davis-challenge-on-video-object-segmentation"><a name="davis"></a>DAVIS Challenge on Video Object Segmentation</h2>
+
+<blockquote>
+  <p>We present the 2017 DAVIS Challenge, a public competition specifically designed for the task of video object segmentation. Following the footsteps of other successful initiatives, such as ILSVRC and PASCAL VOC, which established the avenue of research in the fields of scene classification and semantic segmentation, the DAVIS Challenge comprises a dataset, an evaluation methodology, and a public competition with a dedicated workshop co-located with CVPR 2017. The DAVIS Challenge follows up on the recent publication of DAVIS (Densely-Annotated VIdeo Segmentation), which has fostered the development of several novel state-of-the-art video object segmentation techniques. In this paper we describe the scope of the benchmark, highlight the main characteristics of the dataset and define the evaluation metrics of the competition.</p>
+</blockquote>
+
+<p><a href="http://davischallenge.org/challenge2018/">Challenge Website</a> | <a href="#davis-table">Back</a></p>
+
+<h2 id="tidy-up-my-room-challenge"><a name="tidyup"></a>Tidy Up My Room Challenge</h2>
+
+<blockquote>
+  <p>Robust interaction in domestic settings is still a hard problem for most robots. These settings tend to be unstructured, changing and aimed at humans not robots. This makes the grasping and picking of a wide range of objects in a person’s home a canonical problem for future robotic applications. With this challenge, we aim to foster a community around solving these tasks in a holistic fashion, requiring a tight integration of perception, reasoning and actuation.</p>
+
+  <p>Robotics is an integration discipline and significant efforts are put in by labs worldwide every year to build robotic systems, yet it is hard to compare and validate these approaches against each other. Challenges and competitions have provided an opportunity to benchmark robotic systems on specific tasks, such as pick and place, and driving. We envision this challenge to contain multiple tasks and to increase in complexity over the years.</p>
+</blockquote>
+
+<p><a href="http://icra2018.org/tidy-up-my-room-challenge/">Challenge Website</a> | <a href="#tidyup-table">Back</a></p>
+
+<h2 id="hearthstone-ai-competition"><a name="hearthstone"></a>Hearthstone AI Competition</h2>
+
+<blockquote>
+  <p>The collectible online card game Hearthstone features a rich testbed and poses unique demands for generating artificial intelligence agents. The game is a turn-based card game between two opponents, using constructed decks of thirty cards along with a selected hero with a unique power. Players use their limited mana crystals to cast spells or summon minions to attack their opponent, with the goal to reduce the opponent’s health to zero. The competition aims to promote the stepwise development of fully autonomous AI agents in the context of Hearthstone.</p>
+
+  <p>Entrants will submit agents to participate in one of the two tracks:</p>
+
+  <ul>
+    <li><strong>Premade Deck Playing”-track</strong>: participants will receive a list of decks and play out all combinations against each other. Determining and using the characteristics of player’s and the opponent’s deck to the player’s advantage will help in winning the game.</li>
+    <li><strong>“User Created Deck Playing”-track</strong>: the competition framework allows agents to define their own deck. Finding a deck that can consistently beat a vast amount of other decks will play a key role in this competition track. Additionally, it gives the participants the chance in optimizing the agents’ strategy to the characteristics of their chosen deck.</li>
+  </ul>
+</blockquote>
+
+<p><a href="https://dockhorn.antares.uberspace.de/wordpress/">Challenge Website</a> | <a href="#hearthstone-table">Back</a></p>
+
+<h1 id="icmi-eating-analysis-and-tracking-challenge"><a name="eat"></a>ICMI Eating Analysis and Tracking Challenge</h1>
+
+<blockquote>
+  <p>The multimodal recognition of eating condition - whether a person is eating or not - and if yes, which food type, is a new research domain in the area of speech and video processing that has many promising applications for future multimodal interfaces such as: adapting speech recognition or lip reading systems to different eating conditions (e.g. dictation systems), health (e.g. ingestive behaviour), or security monitoring (e.g., when eating is not allowed).</p>
+
+  <ul>
+    <li>
+      <p>We define three Sub-Challenges based on classification tasks in which participants are encouraged to use speech and/or video recordings:</p>
+    </li>
+    <li>
+      <ol>
+        <li><strong>Food-type Sub-Challenge</strong>: Perform seven-class food classification per utterance</li>
+        <li><strong>Food-likability Sub-Challenge</strong>: Recognize the subjects’ food likability rating</li>
+        <li><strong>Chew and Speak Sub-Challenge</strong>: Recognize the level of difficulty to speak while eating</li>
+      </ol>
+    </li>
+  </ul>
+</blockquote>
+
+<p><a href="https://icmi-eat.ihearu-play.eu/">Challenge Website</a> | <a href="#eat-table">Back</a></p>
+
+<div id="disqus_thread">
+    <button class="disqus-load" onclick="loadDisqusComments()">
+      Load Comments
+    </button>
+  </div>
+<script>
+
+  /**
+  *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW
+  *  TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+  *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT:s
+  *  https://disqus.com/admin/universalcode/#configuration-variables
+  */
+  var disqus_config = function () {
+    this.page.url = "http://localhost:4000/2018/01/14/list-of-ML-competitions-2018.html";
+    this.page.identifier = "" ||
+                           "http://localhost:4000/2018/01/14/list-of-ML-competitions-2018.html";
+  }
+  function loadDisqusComments() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = '//saqibns-github-io.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+  }
+  </script>
+
+<noscript>
+    Please enable JavaScript to view the
+    <a href="https://disqus.com/?ref_noscript">comments powered by Disqus</a>.
+  </noscript>
+
+
+    
+
+
+
+<div class="post-tags">
+  
+    
+    <a href="/tags.html#conferences">
+    
+      <span class="icon">
+        <svg fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0 0h24v24H0z" fill="none"/>
+    <path d="M17.63 5.84C17.27 5.33 16.67 5 16 5L5 5.01C3.9 5.01 3 5.9 3 7v10c0 1.1.9 1.99 2 1.99L16 19c.67 0 1.27-.33 1.63-.84L22 12l-4.37-6.16z"/>
+</svg>
+      </span>&nbsp;<span class="tag-name">conferences</span>
+    </a>
+  
+    
+    <a href="/tags.html#competition">
+    
+      <span class="icon">
+        <svg fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0 0h24v24H0z" fill="none"/>
+    <path d="M17.63 5.84C17.27 5.33 16.67 5 16 5L5 5.01C3.9 5.01 3 5.9 3 7v10c0 1.1.9 1.99 2 1.99L16 19c.67 0 1.27-.33 1.63-.84L22 12l-4.37-6.16z"/>
+</svg>
+      </span>&nbsp;<span class="tag-name">competition</span>
+    </a>
+  
+    
+    <a href="/tags.html#list">
+    
+      <span class="icon">
+        <svg fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0 0h24v24H0z" fill="none"/>
+    <path d="M17.63 5.84C17.27 5.33 16.67 5 16 5L5 5.01C3.9 5.01 3 5.9 3 7v10c0 1.1.9 1.99 2 1.99L16 19c.67 0 1.27-.33 1.63-.84L22 12l-4.37-6.16z"/>
+</svg>
+      </span>&nbsp;<span class="tag-name">list</span>
+    </a>
+  
+</div>
+  </div>
+
+  
+  <section class="comments">
+    <h2>Comments</h2>
+    
+  <div id="disqus_thread">
+    <button class="disqus-load" onClick="loadDisqusComments()">
+      Load Comments
+    </button>
+  </div>
+  <script>
+
+  /**
+  *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW
+  *  TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+  *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT:s
+  *  https://disqus.com/admin/universalcode/#configuration-variables
+  */
+  var disqus_config = function () {
+    this.page.url = "http://localhost:4000/2018/01/14/list-of-ML-competitions-2018.html";
+    this.page.identifier = "" ||
+                           "http://localhost:4000/2018/01/14/list-of-ML-competitions-2018.html";
+  }
+  function loadDisqusComments() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = '//saqibns-github-io.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+  }
+  </script>
+  <noscript>
+    Please enable JavaScript to view the
+    <a href="https://disqus.com/?ref_noscript">comments powered by Disqus</a>.
+  </noscript>
+
+
+
+  </section>
+
+  <section class="related">
+  <h2>Related Posts</h2>
+  <ul class="posts-list">
+    
+      <li>
+        <h3>
+          <a href="/2017/12/30/predicting-emotions-of-a-group.html">
+            Predicting Emotions of a Group
+            <small>30 Dec 2017</small>
+          </a>
+        </h3>
+      </li>
+    
+  </ul>
+</section>
+
+</div>
+
+    </main>
+
+    <!-- Optional footer content -->
+
+  </body>
+</html>
