@@ -22,7 +22,7 @@ kramdown:
       start_line: 1
 
 # Setup
-title:            Shubham's Blog
+title:            Geeky Blog
 tagline:          'Home'
 description:      'In love with programming'
 url:               https://singhcse.github.io/
