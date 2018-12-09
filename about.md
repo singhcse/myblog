@@ -10,23 +10,24 @@ Hey! Tell me a little about yourself. Things like...
 
 #### What do you do?
 
-I am a part of the Sports team at Skilrock Technologies, currently working on Lottery Management System as a backend Developer. 
+I am a part of the Sports team at Skilrock Technologies, currently working on Lottery Management System as a backend Developer. I have been working on products like RMS(Retail management System),SBS(Sports betting System). My neurons are still learning .
 
 #### What interests you?
 
-Over the last few years I've developed an interest in problem-solving,optimization,machine learning. I have participated in some challenges about which you can read on the blog.
+Over the last few years I've developed an interest in problem-solving,optimization,machine learning. I have participated in some challenges about which you can read on the blog.Travelling excits me alot.
 
 #### That's nice, but what are your interests outside of work?
 
 Oh, That! :smile:
 
-I love memes 😉 gaming 🎮 travelling 🏞️ 
+I love memes :wink: gaming :video_game: travelling :mount_fuji:
 
-Books. I always prefer hardbooks unless I'm travelling, during which I read on my Kindle. I read all genres but am inclined towards tragedies. On the top of my list are The Kite Runner by Khaled Hosseini and Man's Search for Meaning by Viktor Frankl.
+Memes.  If you have good sense of humour you can get this. :satisfied:
 
-Food. Indian cuisine. I prefer spicy over sweet. Dosas, Idlis, Kadhai Paneer, Dal Makhani, Malai Kofta, Samosas, Pani Puri... :yum: you name it! 
+Gaming. call-of-duty , nfs , crysis , pubg  you name it. :fire:
+Sometimes I also watch game streaming on twitch,youtube (Shroud,Ninja,Dynamo,Mortal).
 
-Anime. They have had a lasting impact on me. A lot of characters - Naruto Uzumaki, Itachi Uchiha, Akane Tsunemori, Lelouch vi Britannia, Kaori Miyazono, Hana, Roy Mustang, to name a few - have shaped my worldview and have taught me a lot. 
+Travelling. I think our neurons wont learn new patterns until we train it with unseen data. so, Exploring is very important for us.
 
 #### How can I get in touch?
 
