@@ -24,7 +24,7 @@ kramdown:
 # Setup
 title:            Geeky Blog
 tagline:          'Home'
-description:      'In :love: with programming'
+description:      'In love with programming'
 url:               https://singhcse.github.io/
 baseurl:          '/myblog'
                   # NB: This applies to all pages in your Jekyll site.
