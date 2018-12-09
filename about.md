@@ -20,7 +20,7 @@ Over the last few years I've developed an interest in problem-solving,optimizati
 
 Oh, That! :smile:
 
-I love memes,programming,gaming. 
+I love memes,programming,gaming and traveling 🔥
 
 Books. I always prefer hardbooks unless I'm travelling, during which I read on my Kindle. I read all genres but am inclined towards tragedies. On the top of my list are The Kite Runner by Khaled Hosseini and Man's Search for Meaning by Viktor Frankl.
 
