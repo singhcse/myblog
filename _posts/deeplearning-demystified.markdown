@@ -3,8 +3,7 @@ layout: post
 title: "Work ongoing "
 excerpt: "Important Links"
 tags:
-  - Links
-  - deep learning
+  - pytorch
 
 last_modified_at: 2017-07-14T12:25:36+05:30
 ---
