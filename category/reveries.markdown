@@ -1,5 +1,5 @@
 ---
 layout: category
 title: "Reveries"
-category: "Reveries"
+category: "Rev"
 ---

@@ -1,7 +1,7 @@
 ---
 layout: category
 title: "PyTorch Errors Series: Learning by Failing"
-category: "PyTorch Errors Series"
+category: "Series"
 ---
 
 People ask how to learn a new programming language. I often tell them that if they wish to learn a language similar to the one they know, it should not be too difficult to grasp the basic syntax and get up and running with it. But, to be actually productive with it, is a different story. To be productive, one needs to be familiar of the situations when things don't go the way they had intended them to. Program not compiling, getting a weird runtime error, the error stack not displaying the line number correctly, the list is endless. 
