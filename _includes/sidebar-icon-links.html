@@ -7,6 +7,14 @@
     </a>
   {% endif %}
 
+	{% if site.instagram.profile %}
+	    <a id="instagram-link"
+	       class="icon" title="Instagram" aria-label="Instagram"
+	       href="{{ site.instagram.profile }}">
+	      {% include svg/instagram.svg %}
+	    </a>
+	  {% endif %}
+
   {% if site.email.address %}
     <a id="github-link"
        class="icon" title="Email" aria-label="Email"
@@ -22,6 +30,7 @@
       {% include svg/linkedin.svg %}
     </a>
   {% endif %}
+
   {% assign tags_page = false %}
   {% assign search_page = false %}
   {% for node in site.pages %}
