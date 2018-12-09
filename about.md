@@ -10,7 +10,7 @@ Hey! Tell me a little about yourself. Things like...
 
 #### What do you do?
 
-I am a part of the Software Development team at Skilrock Technologies, currently working on Lottery Management System as a backend Developer. 
+I am a part of the Sports team at Skilrock Technologies, currently working on Lottery Management System as a backend Developer. 
 
 #### What interests you?
 
