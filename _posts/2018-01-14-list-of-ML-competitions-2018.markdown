@@ -1,13 +1,42 @@
 ---
 layout: post
-title: "A List of Machine Learning Challenges in 2018"
-excerpt: "Try your hands on Machine Learning challenges organized under the umbrella of various conferences."
+title: "Work ongoing "
+excerpt: "Important Links"
 tags:
-  - conferences
-  - competition
-  - list
-last_modified_at: 2018-01-14T12:25:36+05:30
+  - Links
+  - deep learning
+
+last_modified_at: 2017-07-14T12:25:36+05:30
 ---
+
+
+
+[My Internship on Deep Learning](https://www.linkedin.com/pulse/application-machine-learning-medical-image-processing-shubham-singh/) &#124;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 Competitions are a great way to excel in machine learning. They offer various advantages in addtion to gaining knowledge and developing your skillset. 
 
