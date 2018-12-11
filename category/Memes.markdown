@@ -9,5 +9,5 @@ This is what I like the most :smile:
 Meme Rewind 2018 :fire:
 
 
-![meme3](/assets/memes/meme3.png)
+![meme3](/assets/memes/meme3.png = 100x100)
 
