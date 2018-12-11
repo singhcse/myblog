@@ -13,6 +13,7 @@ last_modified_at: 2018-12-11T20:31:52+05:30
 This is an array related problem in which we have to calculate the maximum unit of water can be stored.here array elements are representing the height of building blocks.
 
 input : array
+
 output : maximum unit of water
 ```java
 
