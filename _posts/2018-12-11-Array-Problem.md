@@ -3,6 +3,8 @@ layout: post
 title: "Rain Water Trapping Problem"
 categories:
   - "Programming"
+tags:
+  - Array
 not_main: true
 hidden: true
 last_modified_at: 2018-12-11T20:31:52+05:30
