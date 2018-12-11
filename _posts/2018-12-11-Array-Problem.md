@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Rain Water Tap Problem"
+title: "Rain Water Trapping Problem"
 categories:
   - "Programming"
 not_main: true
