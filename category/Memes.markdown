@@ -11,5 +11,5 @@ Meme Rewind 2018 :fire:
 aree bhai bhai bhai 
 
 
-![meme3](/assets/memes/codingmeme.png)
+![codingmeme](https://github.com/singhcse/myblog/blob/gh-pages/assets/memes/codingmeme.png)
 
