@@ -2,7 +2,7 @@
 layout: post
 title: "Dynamic Programming"
 categories:
-  - "Algorithms"
+  - "Programming"
 tags:
   - Dynamic Programming
 not_main: true
