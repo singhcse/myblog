@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Mapper in Stream"
-excerpt: "Functional Programming in java 8"
+excerpt: "Streams | map()"
 tags:
   - Lambda Expressions
   - Streams
