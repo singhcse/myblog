@@ -12,3 +12,6 @@ last_modified_at: 2018-12-13T20:31:52+05:30
 
 
 This is a sample dynamic programming page .
+
+
+![memes](https://github.com/singhcse/myblog/blob/gh-pages/assets/memes/123.jpg)
