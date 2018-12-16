@@ -10,7 +10,7 @@ Hey! Tell me a little about yourself. Things like...
 
 #### What do you do?
 
-I am a part of the Sports team at Skilrock Technologies, currently working on Lottery Management System as a backend Developer. I have been working on products like RMS(Retail management System),SBS(Sports betting System). My neurons are still learning .
+I am a part of the Sports team at Skilrock Technologies, currently working on Lottery Management System as a backend Developer. Currently I am working on products RMS(Retail management System),SBS(Sports betting System). My neurons are still learning .
 
 #### What interests you?
 
