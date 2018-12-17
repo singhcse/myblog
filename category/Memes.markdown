@@ -13,5 +13,5 @@ aree bhai bhai bhai
 
 ![iron_man1](/assets/ironman/iron_man1.jpg)
 
-![memes_123](https://github.com/singhcse/myblog/blob/gh-pages/assets/memes/123.jpg)
+![memes_123](/assets/memes/123.jpg)
 
