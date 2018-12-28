@@ -14,7 +14,7 @@ I am a part of the Sports team at Skilrock Technologies, currently working on Lo
 
 #### What interests you?
 
-Over the last few years I've developed an interest in problem-solving,optimization,machine learning. I have participated in some challenges about which you can read on the blog.Travelling excits me alot.
+Over the last few years I've developed an interest in problem-solving,optimization,machine learning. I have participated in some challenges about which you can read on the blog.Travelling excites me alot.
 
 #### That's nice, but what are your interests outside of work?
 
